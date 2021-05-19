@@ -1,0 +1,11 @@
+baseURL = "https://www.andrewsail.com"
+languageCode = "en-us"
+title = "Andrew Sail"
+theme = "dimension"
+googleAnalytics = "UA-133951519-1"
+
+[deployment]
+[[deployment.targets]]
+name = "s3-bucket"
+URL = "s3://www.andrewsail.com?region=us-east-1"
+cloudFrontDistributionID = "E636FZZQVOSRQ"
