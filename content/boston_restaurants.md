@@ -65,7 +65,9 @@ Really nice covered outdoor patio, and great atmosphere inside! On the Taco-mete
 U-shaped bar and a half-outdoor patio. Really good food, arguably underrated.
 
 ### [Fox and the Knife](https://www.foxandtheknife.com/)
-Opened in 2019 and named one of the best new restaurants in America by Eater National, Food & Wine, and USA Today. House made ricotta, house made pasta, great wine. Only 12 chocolate dipped pistachio ice cream sandwiches made per night! Chef Karen Akunowicz has earned multiple James Beard Awards.
+Opened in 2019 and named one of the best new restaurants in America by Eater National, Food & Wine, and USA Today. House made ricotta, house made pasta, great wine. Don't skip on the foccaccia and only 12 chocolate dipped pistachio ice cream sandwiches made per night! Chef Karen Akunowicz has earned multiple James Beard Awards.
+
+![](images/fox_knife.jpg)
 
 ### [The Galley](https://thegalleydiner.com/)
 Authentic Southie breakfast, greasy diner food that cures a hangover. Visited by Anthony Bourdain.
