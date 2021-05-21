@@ -1,5 +1,5 @@
 ---
-title: Boston Restaurant Journal
+title: Boston Restaurants
 ---
 ## Intro
 
