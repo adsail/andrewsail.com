@@ -10,3 +10,5 @@ In my free time I enjoy traveling, skiing, golfing, cooking and baking. I love t
 
 Please get in touch on [LinkedIn](https://www.linkedin.com/in/andrewsail) or via [email](mailto:andrew@andrewsail.com).
 
+All photos on this website are originals, taken by me! 
+

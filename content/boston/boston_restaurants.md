@@ -30,6 +30,8 @@ Great wine, beer, and cocktails. The inside is cozy with huge black-framed windo
 ### [Sarma](https://www.sarmarestaurant.com/) 🔥
 Incredible mediterranean tapas. My first visit was during COVID-19 with a fixed 10-course tasting menu, and I was stuffed. A few memorable plates were the gazpacho, chickpea fritters, and the sesame chicken skewers. 
 
+![](/images/sarma.jpg)
+
 ### [Bow Market](https://www.bowmarketsomerville.com/) 🔥
 Make a reservation ahead of time for outdoor seating! Walk-up drinks and food stands (Saus, Mike & Patty’s, Hotbox, and more). There are also some cool rotating pop-up shops and a wine store to check out. Remnant Brewing also has a ton of their own seating (and awesome beer).
 
@@ -38,6 +40,7 @@ Make a reservation ahead of time for outdoor seating! Walk-up drinks and food st
 ### [MIDA](https://www.midaboston.com/) 🔥
 Modern Italian, great arancini. Make sure to ask for their bread. Lots of hygge. Best tiramisu I've ever had. One of my all-time favorites!
 
+![](/images/mida.jpg)
 ### [Barcelona](https://barcelonawinebar.com/location/south-end/) 
 Awesome tapas and always great for brunch. Sure, it's a chain, but it never disappoints. Also lots of hygge.
 
@@ -67,7 +70,7 @@ U-shaped bar and a half-outdoor patio. Really good food, arguably underrated.
 ### [Fox and the Knife](https://www.foxandtheknife.com/)
 Opened in 2019 and named one of the best new restaurants in America by Eater National, Food & Wine, and USA Today. House made ricotta, house made pasta, great wine. Don't skip on the foccaccia and only 12 chocolate dipped pistachio ice cream sandwiches made per night! Chef Karen Akunowicz has earned multiple James Beard Awards.
 
-![](images/fox_knife.jpg)
+![](/images/fox_knife.jpg)
 
 ### [The Galley](https://thegalleydiner.com/)
 Authentic Southie breakfast, greasy diner food that cures a hangover. Visited by Anthony Bourdain.
