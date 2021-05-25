@@ -153,3 +153,10 @@ Great Jewish deli for lunch or an easy dinner.
 
 ### [Boston Chops](https://www.bostonchops.com/)
 Known to be one of the best steakhouses in Boston with multiple locations. The Financial District location is, in my opinion, the best! Don't skip on the popovers.
+
+## East Boston
+
+### [Santarpio's](https://www.santarpiospizza.com/) 🔥
+A Boston staple for NY style pizza. Opened in 1903 as a bakery and turned to a pizza joint in 1933. No frills and still run by the Santarpio family! There's a charm to the simplicity; the menu does not span beyond pizza, lamb skewers, steak tips and sausage. I'm lucky to have some friends who recently moved to Eastie, so I'll hopefully visit Santarpio's more often.
+
+![](/images/santarpios.jpeg)
