@@ -25,6 +25,11 @@ Awesome rotating wine list, and I believe the owner is a somellier. Simple menu 
 **Incredible Neapolitan pizza**. Maybe that's in bold becuase I ate here two days prior to writing this, or maybe it's just awesome pizza. Order it NYC style to get it a little thinner! 
 Great wine, beer, and cocktails. The inside is cozy with huge black-framed windows towards the back.
 
+### [Puritan & Company](https://www.puritancambridge.com/)
+Truly a dining experience. The menu is straight forward and every dish has unique flare. Had incredible Burratta with Zucchini Gazpacho, and a delicious steak. Great cocktail and wine menu, too.
+
+![puritan](/images/puritan.jpeg)
+
 ## Somerville
 
 ### [Sarma](https://www.sarmarestaurant.com/) 🔥
@@ -32,8 +37,26 @@ Incredible mediterranean tapas. My first visit was during COVID-19 with a fixed 
 
 ![](/images/sarma.jpg)
 
+### [3 Little Figs](https://www.3littlefigs.com/)
+One of the better bakeries/coffee shops I've been to in Boston. Amazing smoothies, coffee, pastries and sandwiches.
+
+![3littlefigs](/images/3littlefigs.jpeg)
+
+### [Bloc Cafe](https://blocsomerville.com/)
+Yet another amazingly good coffee shop and it's fun to sit on their patio! Their smoothies are the best I've had in recent memory.
+
 ### [Bow Market](https://www.bowmarketsomerville.com/) 🔥
 Make a reservation ahead of time for outdoor seating! Walk-up drinks and food stands (Saus, Mike & Patty’s, Hotbox, and more). There are also some cool rotating pop-up shops and a wine store to check out. Remnant Brewing also has a ton of their own seating (and awesome beer).
+
+### Leone's
+Cash-only sicilian pizza and subs. Incredibly good takeout and a Somerville staple
+
+![leones](/images/leones.jpeg)
+
+### [Avenue Kitchen + Bar](https://www.avenuesomerville.com/)
+Can't speak to their menu at large, however their Detroit-style pizza is crazy good. Certainly competes with Leone's.
+
+![avenue](/images/avenue.jpeg)
 
 ## South End
 
@@ -115,6 +138,11 @@ Good casual pizza. Nothing fancy here.
 ### [Bova's Bakery](http://bovabakeryboston.net/) 🔥
 In my opinion, Bova's offers the best pastries in the North End. You'll walk in and *probably* want one of everything. Don't miss out on the rainbow cookies!
 
+### Monica's
+Delicious, fresh sandwiches. Prosciutto sliced right before your eyes.
+
+![Monicas](/images/monicas.jpeg)
+
 ## Seaport
 
 ### [City Tap](https://www.citytap.com/location/fort-point/)
@@ -157,6 +185,6 @@ Known to be one of the best steakhouses in Boston with multiple locations. The F
 ## East Boston
 
 ### [Santarpio's](https://www.santarpiospizza.com/) 🔥
-A Boston staple for NY style pizza. Opened in 1903 as a bakery and turned to a pizza joint in 1933. No frills and still run by the Santarpio family! There's a charm to the simplicity; the menu does not span beyond pizza, lamb skewers, steak tips and sausage. I'm lucky to have some friends who recently moved to Eastie, so I'll hopefully visit Santarpio's more often.
+A Boston staple for NY style pizza. Opened in 1903 as a bakery and turned to a pizza joint in 1933. No frills and still run by the Santarpio family! There's a charm to the simplicity; the menu does not span beyond pizza, lamb skewers, steak tips and sausage. I'm lucky to have some friends who recently moved to Eastie, so I'll be visiting Santarpio's more often.
 
 ![](/images/santarpios.jpeg)
