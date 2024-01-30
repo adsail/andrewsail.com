@@ -18,6 +18,9 @@ Unique "global" tapas. There's something for everyone on the menu, from the raw 
 ### [Oleana](https://www.oleanarestaurant.com/) 🔥
 Turkish and Middle East small plates that are *amazing.* Can be tough to get a reservation and is well worth the wait!
 
+### [Alden & Harlow](https://www.aldenharlow.com/)
+Awesome small plates in Harvard Square– great for brunch and dinner!
+
 ### [Mamaleh’s](http://mamalehs.com/)
 Jewish deli, need I say more? Pastrami & egg sandwich for brekky is a crowd pleaser.
 
@@ -29,6 +32,9 @@ A modern pizzabar in Central Square! Get the garlic bread, share some pizzas, dr
 
 ### [Puritan & Company](https://www.puritancambridge.com/)
 I feel like this restaurant deserves more hype. Only visited once, and had incredible Burratta with Zucchini Gazpacho and a delicious steak. Great cocktail and wine menu, too.
+
+### [Area Four](https://www.areafour.com/) 
+*Wicked* good pizza in Kendall. Good beer, too!
 
 ## Somerville
 
@@ -43,6 +49,12 @@ _Sheeeeesh!_ Tapas that rotate based on season. Everything's fresh, everything's
 
 ### [June Bug](https://www.junebugrestaurant.com/) 🔥
 This is field & vine's latest "project," also in Union Square and the wood-fired pizza is incredible! Similar to field & vine, the wine list is epic. 
+
+### [Juliet](https://www.julietsomerville.com/)
+*Awesome* french-inspired cuisine in Union Square in a cozy, recently expanded space. I've yet to try their brunch and lunch, and have always enjoyed their dinner (and wine list!).
+
+### [Josephine](https://www.josephinepizza.com/)
+Great pizza (deep dish and thin wood-fired!) from the same chef/restauranteur as Alden & Harlow! Good, modern, open-air vibe and a fun atmosphere for a casual bite.
 
 ### [Bow Market](https://www.bowmarketsomerville.com/) 
 There's something for everyone at Bow. Rotating pop-ups, Saus, Mike & Patty's, Hotbox, Remnant Brewing, Rebel Rebel (a natural wine bar that routinely [receives high praise](https://www.rebelrebelsomerville.com/press)). Head here for some shopping, a casual dinner & drink on the patio, a glass of wine at Rebel Rebel, or a great NEIPA at Remnant.
@@ -69,9 +81,6 @@ Popular modern Italian spot serving brick oven pizza and other small plates. A S
 
 ### [Five Horses Tavern](https://www.fivehorsestavern.com/boston/) 
 Great rotating beer list, good for brunch and dinner, nice patio. Consistent "nic*er* bar food."
-
-### [Area Four](https://www.areafour.com/) 
-*Wicked* good pizza. Additional location in Kendall as well.
 
 ## Southie/Dorchester
 
