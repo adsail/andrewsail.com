@@ -4,9 +4,9 @@ title: About
 
 ### 👋 Hi, I'm Andrew Sail
 
-I'm currently an Engineer at Spotify in the cloud/infrastructure space focusing on Observability and Reliability. 
+I'm currently an Engineering Manager at Spotify in the Cloud Infra & Data Platform space, focusing on Data Management, Quality, Observability and Reliability.
 
-In my free time I enjoy traveling, flying single engine aircraft, skiing, golfing, cooking and baking. I love to ski out west in the Winter and spend time on Cape Cod in the Summer.
+In my free time I love to travel, fly single engine aircraft (PPL), ski, golf, and cook.
 
 Please get in touch on [LinkedIn](https://www.linkedin.com/in/andrewsail) or via [email](mailto:andrew@andrewsail.com).
 
