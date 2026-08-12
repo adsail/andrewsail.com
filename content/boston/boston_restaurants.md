@@ -33,7 +33,7 @@ Modern pizza bar in Central Square. Garlic bread, share some pies, drink wine, b
 ### [Puritan & Company](https://www.puritancambridge.com/)
 Deserves more hype. Only been once: outstanding burrata with zucchini gazpacho, excellent steak, and a serious cocktail / wine list.
 
-### [Pammy's](https://www.pammyscambridge.com/)
+### [Pammy's](https://www.pammyscambridge.com/) 🔥
 Italian-leaning neighborhood trattoria between Central and Harvard. Cozy room, serious wine list, and a prix-fixe that still feels like a hang. Bar / lounge is the walk-in play.
 
 ### [Cafe Sushi](https://www.cafesushicambridge.com/)
