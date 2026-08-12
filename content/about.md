@@ -4,11 +4,10 @@ title: About
 
 ### 👋 Hi, I'm Andrew Sail
 
-I'm currently an Engineering Manager at Spotify in the Cloud Infra & Data Platform space, focusing on Data Management, Quality, Observability and Reliability.
+I'm currently building Forward Deployed Engineering at Cursor, helping teams put AI coding agents to work in real production environments.
 
-In my free time I love to travel, fly single engine aircraft (PPL), ski, golf, and cook.
+In my free time I love to travel, fly single-engine aircraft (PPL), ski, golf, cook, and chase good wine and coffee.
 
-Please get in touch on [LinkedIn](https://www.linkedin.com/in/andrewsail) or via [email](mailto:andrew@andrewsail.com).
+Please get in touch on [LinkedIn](https://www.linkedin.com/in/andrewsail), [X](https://x.com/sailandrew), or via [email](mailto:andrew@andrewsail.com).
 
-All photos on this website are originals, taken by me! 
-
+All photos on this website are originals, taken by me!
