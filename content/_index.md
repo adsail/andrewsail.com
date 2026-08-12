@@ -1,6 +1,6 @@
 ---
 title: Andrew Sail
-description: Engineering Manager @ Spotify | Boston | Coffee Snob, Foodie, Private Pilot, Avid Traveler
+description: Building FDE at Cursor | Boston-based private pilot, sommelier, foodie and coffee snob
 background: "/images/boston_2.jpeg"
 logo: "/images/sailboat.svg"
 ---
