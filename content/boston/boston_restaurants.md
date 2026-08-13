@@ -1,5 +1,7 @@
 ---
 title: Boston Restaurants
+layout: map
+fullpage: true
 ---
 ## Intro
 
@@ -172,10 +174,6 @@ Excellent Italian. My sister’s all-time favorite Boston restaurant. Get the ar
 ### [Zaftigs Delicatessen](http://www.zaftigs.com/)
 Solid Jewish deli for lunch or an easy dinner.
 
-## Financial District
-
-### [Boston Chops](https://www.bostonchops.com/)
-One of the best steakhouses in town. Financial District location is my favorite. Don’t skip the popovers.
 
 ## East Boston
 

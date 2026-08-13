@@ -1,0 +1,658 @@
+{
+  "places": [
+    {
+      "id": "giulia",
+      "name": "Giulia",
+      "url": "https://www.giuliarestaurant.com/",
+      "neighborhood": "Cambridge",
+      "favorite": true,
+      "blurb": "Homemade pasta, excellent cocktails, and the sfizi small plates are the move to start. Reservations are tough; a small group can often snag the bar.",
+      "lat": 42.382506,
+      "lng": -71.119844,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/giulia-restaurant"
+      }
+    },
+    {
+      "id": "little-donkey",
+      "name": "Little Donkey",
+      "url": "http://www.littledonkeybos.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Global tapas with something for everyone, from the raw bar through the burger. Great room, great drinks. Get the cookie dough for dessert.",
+      "lat": 42.364328,
+      "lng": -71.101556,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/little-donkey-cambridge"
+      }
+    },
+    {
+      "id": "oleana",
+      "name": "Oleana",
+      "url": "https://www.oleanarestaurant.com/",
+      "neighborhood": "Cambridge",
+      "favorite": true,
+      "blurb": "Turkish / Middle Eastern small plates worth the Resy pain. Go hungry.",
+      "lat": 42.370567,
+      "lng": -71.097179,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/oleana"
+      }
+    },
+    {
+      "id": "alden-harlow",
+      "name": "Alden & Harlow",
+      "url": "https://www.aldenharlow.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Harvard Square small plates that work for brunch or dinner.",
+      "lat": 42.373559,
+      "lng": -71.12139,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/alden-and-harlow-cambridge"
+      }
+    },
+    {
+      "id": "mamalehs",
+      "name": "Mamaleh’s",
+      "url": "http://mamalehs.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Jewish deli, need I say more? Pastrami & egg sandwich for breakfast is a crowd-pleaser.",
+      "lat": 42.36598,
+      "lng": -71.091123,
+      "booking": null
+    },
+    {
+      "id": "source",
+      "name": "Source",
+      "url": "https://sourcerestaurants.com/",
+      "neighborhood": "Cambridge",
+      "favorite": true,
+      "blurb": "Incredible Neapolitan pizza. Order it NYC-style if you want it a little thinner. Strong wine, beer, and cocktail lists.",
+      "lat": 42.374526,
+      "lng": -71.12003,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/source-restaurant-cambridge"
+      }
+    },
+    {
+      "id": "si-cara",
+      "name": "Si Cara",
+      "url": "https://sicarapizza.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Modern pizza bar in Central Square. Garlic bread, share some pies, drink wine, be merry.",
+      "lat": 42.3657458,
+      "lng": -71.1031564,
+      "address": "627 Massachusetts Ave, Cambridge, MA",
+      "booking": null
+    },
+    {
+      "id": "puritan-company",
+      "name": "Puritan & Company",
+      "url": "https://www.puritancambridge.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Deserves more hype. Only been once: outstanding burrata with zucchini gazpacho, excellent steak, and a serious cocktail / wine list.",
+      "lat": 42.373089,
+      "lng": -71.096813,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/puritan-and-company-cambridge"
+      }
+    },
+    {
+      "id": "pammys",
+      "name": "Pammy's",
+      "url": "https://www.pammyscambridge.com/",
+      "neighborhood": "Cambridge",
+      "favorite": true,
+      "blurb": "Italian-leaning neighborhood trattoria between Central and Harvard. Cozy room, serious wine list, and a prix-fixe that still feels like a hang. Bar / lounge is the walk-in play.",
+      "lat": 42.368433,
+      "lng": -71.109187,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/pammys-cambridge"
+      }
+    },
+    {
+      "id": "cafe-sushi",
+      "name": "Cafe Sushi",
+      "url": "https://www.cafesushicambridge.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Harvard Square institution (now Cafe Sushi Nisei under the next generation). Thoughtful sushi, not a conveyor-belt situation. Longtime favorite.",
+      "lat": 42.370588,
+      "lng": -71.113362,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/cambridge-ma/venues/cafe-sushi"
+      }
+    },
+    {
+      "id": "area-four",
+      "name": "Area Four",
+      "url": "https://www.areafour.com/",
+      "neighborhood": "Cambridge",
+      "favorite": false,
+      "blurb": "Wicked good pizza in Kendall. Solid beer too.",
+      "lat": 42.363141,
+      "lng": -71.092435,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/area-four"
+      }
+    },
+    {
+      "id": "sarma",
+      "name": "Sarma",
+      "url": "https://www.sarmarestaurant.com/",
+      "neighborhood": "Somerville",
+      "favorite": true,
+      "blurb": "Mediterranean tapas at the top of the game. First visit was a COVID-era 10-course tasting (stuffed); gazpacho, chickpea fritters, and sesame chicken skewers still stick with me. Been back plenty since and it remains a favorite.",
+      "lat": 42.388187,
+      "lng": -71.095475,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/sarma"
+      }
+    },
+    {
+      "id": "celeste",
+      "name": "Celeste",
+      "url": "https://celesteunionsquare.com/",
+      "neighborhood": "Somerville",
+      "favorite": true,
+      "blurb": "Epic Peruvian in Union Square. Start with a Pisco Sour (or two) and go from there.",
+      "lat": 42.381329,
+      "lng": -71.09727,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/celeste-somerville"
+      }
+    },
+    {
+      "id": "field-vine",
+      "name": "field & vine",
+      "url": "https://www.fieldandvinesomerville.com/",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Sheeeeesh. Seasonal tapas, local as it gets. Staff that loves food and loves wine, and that energy is half the point.",
+      "lat": 42.379992,
+      "lng": -71.094516,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/field-and-vine"
+      }
+    },
+    {
+      "id": "june-bug",
+      "name": "June Bug",
+      "url": "https://www.junebugrestaurant.com/",
+      "neighborhood": "Somerville",
+      "favorite": true,
+      "blurb": "field & vine’s wood-fired pizza project, also in Union Square. Pizza is excellent; wine list is epic.",
+      "lat": 42.379727,
+      "lng": -71.094371,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/somerville-ma/venues/june-bug"
+      }
+    },
+    {
+      "id": "spoke",
+      "name": "Spoke",
+      "url": "http://www.spokewinebar.com/",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Davis Square wine bar with seasonal small plates. Serious list, cozy room, industry hang energy. Easy yes if you care about wine.",
+      "lat": 42.398894,
+      "lng": -71.124307,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/spoke-wine-bar"
+      }
+    },
+    {
+      "id": "josephine",
+      "name": "Josephine",
+      "url": "https://www.josephinepizza.com/",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Deep dish and thin wood-fired from the same crew as Alden & Harlow. Casual, open-air, easy night out.",
+      "lat": 42.383221,
+      "lng": -71.105581,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/somerville-ma/venues/josephine-ma"
+      }
+    },
+    {
+      "id": "bow-market",
+      "name": "Bow Market",
+      "url": "https://www.bowmarketsomerville.com/",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Something for everyone: rotating pop-ups, Saus, Mike & Patty’s, Hotbox, Remnant Brewing, and Rebel Rebel (a natural wine bar that routinely gets hyped). Shop, patio dinner, a glass at Rebel Rebel, or a NEIPA at Remnant.",
+      "lat": 42.381114,
+      "lng": -71.098261,
+      "booking": null
+    },
+    {
+      "id": "leones",
+      "name": "Leone's",
+      "url": "",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Cash-only Sicilian pizza and subs. My go-to takeout pie.",
+      "lat": 42.391932,
+      "lng": -71.092501,
+      "booking": null
+    },
+    {
+      "id": "ebi-sushi",
+      "name": "Ebi Sushi",
+      "url": "http://www.ebisushi.com/",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Union Square sushi staple. Reliable, high-quality, and the kind of place you end up going back to without thinking.",
+      "lat": 42.379091,
+      "lng": -71.09463,
+      "booking": null
+    },
+    {
+      "id": "tsurumen",
+      "name": "Tsurumen",
+      "url": "https://www.tsurumendavis.com/",
+      "neighborhood": "Somerville",
+      "favorite": false,
+      "blurb": "Osaka-style ramen in Davis from Chef Onishi. Broth and noodles made seriously; lines happen for a reason.",
+      "lat": 42.396188,
+      "lng": -71.121847,
+      "booking": null
+    },
+    {
+      "id": "sushi-kappo-toraya",
+      "name": "Sushi Kappo Toraya",
+      "url": "https://www.toraya-arlington.com/",
+      "neighborhood": "Arlington",
+      "favorite": false,
+      "blurb": "Chef-owned Japanese in Arlington Center. Sushi and kappo-style plates, fresh as it gets. Worth the short hop from Cambridge / Somerville.",
+      "lat": 42.416669,
+      "lng": -71.158647,
+      "booking": null
+    },
+    {
+      "id": "mida",
+      "name": "MIDA",
+      "url": "https://www.midaboston.com/",
+      "neighborhood": "South End",
+      "favorite": false,
+      "blurb": "Modern Italian. Get the arancini, ask for the bread, don’t skip tiramisu. Also in Newton and Eastie.",
+      "lat": 42.339022,
+      "lng": -71.080472,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/mida-south-end-boston"
+      }
+    },
+    {
+      "id": "kava-neo-taverna",
+      "name": "KAVA Neo-Taverna",
+      "url": "https://kavaneotaverna.com/",
+      "neighborhood": "South End",
+      "favorite": true,
+      "blurb": "Incredible Greek tapas. Reservations open only a day ahead, so watch Resy and plan ahead.",
+      "lat": 42.342323,
+      "lng": -71.070518,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna"
+      }
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "url": "https://barcelonawinebar.com/location/south-end/",
+      "neighborhood": "South End",
+      "favorite": false,
+      "blurb": "Reliable tapas, especially for brunch. It’s a chain, and it basically never misses. Also Brookline and Cambridge.",
+      "lat": 42.344575,
+      "lng": -71.070864,
+      "booking": {
+        "platform": "tock",
+        "url": "https://www.exploretock.com/barcelona-wine-bar-south-end"
+      }
+    },
+    {
+      "id": "the-beehive",
+      "name": "The Beehive",
+      "url": "https://www.beehiveboston.com/",
+      "neighborhood": "South End",
+      "favorite": false,
+      "blurb": "Fun room, jazz downstairs more often than not. Solid food, inventive cocktails.",
+      "lat": 42.344373,
+      "lng": -71.071381,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/beehive-boston"
+      }
+    },
+    {
+      "id": "fox-and-the-knife",
+      "name": "Fox and the Knife",
+      "url": "https://www.foxandtheknife.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Karen Akunowicz’s Southie hit: house ricotta, house pasta, great wine. Get the focaccia, and hunt the chocolate-dipped pistachio ice cream sandwiches (only 12 a night).",
+      "lat": 42.342661,
+      "lng": -71.056548,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/fox-and-the-knife-south-boston"
+      }
+    },
+    {
+      "id": "bar-volpe",
+      "name": "Bar Volpe",
+      "url": "https://www.barvolpe.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Chef Karen again, just down the road. Southern Italian with a fish lean.",
+      "lat": 42.340412,
+      "lng": -71.053037,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/bar-volpe-boston"
+      }
+    },
+    {
+      "id": "the-galley",
+      "name": "The Galley",
+      "url": "https://thegalleydiner.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Classic Southie breakfast: greasy diner food that cures a hangover. A dive, and perfect. Bourdain stopped here.",
+      "lat": 42.33778,
+      "lng": -71.027431,
+      "booking": null
+    },
+    {
+      "id": "via-cannuccia",
+      "name": "Via Cannuccia",
+      "url": "https://www.viacannuccia.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Bakery / trattoria / pizzeria. Great dinner, want to go back; weekend mornings for pastries too.",
+      "lat": 42.3426255,
+      "lng": -71.0564835,
+      "address": "32 W Broadway, Boston, MA",
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/via-cannuccia-boston"
+      }
+    },
+    {
+      "id": "rondos",
+      "name": "Rondo’s",
+      "url": "",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "No-frills Southie sub shop. Another Bourdain stop.",
+      "lat": 42.341016,
+      "lng": -71.054016,
+      "booking": null
+    },
+    {
+      "id": "american-provisions",
+      "name": "American Provisions",
+      "url": "https://www.americanprovisions.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Neighborhood shop with excellent sandwiches, coffee (beans + drinks), bread, wine / beer / pasta / sauces, and some prepared food. Owner also opened Gray’s Hall wine bar next door.",
+      "lat": 42.3353719,
+      "lng": -71.0398106,
+      "address": "613 E Broadway, Boston, MA",
+      "booking": null
+    },
+    {
+      "id": "moonshine-152",
+      "name": "Moonshine 152",
+      "url": "https://moonshine152.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Asian-influenced brunch with a Parks and Rec streak: eclectic, thoughtful plates. Chef Asia Mei is often on the floor.",
+      "lat": 42.341682,
+      "lng": -71.056884,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/moonshine-152-boston"
+      }
+    },
+    {
+      "id": "yellow-door-taqueria",
+      "name": "Yellow Door Taqueria",
+      "url": "https://www.yellowdoortaqueria.com/",
+      "neighborhood": "Southie / Dorchester",
+      "favorite": false,
+      "blurb": "Amazing margaritas and tacos; bar seats are the move. South End location is good; Dorchester original is better. Yes, both have yellow doors.",
+      "lat": 42.3284454,
+      "lng": -71.0571118,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/yellow-door-taqueria-dorchester"
+      }
+    },
+    {
+      "id": "krasi",
+      "name": "Krasi",
+      "url": "https://www.krasiboston.com/",
+      "neighborhood": "Back Bay",
+      "favorite": false,
+      "blurb": "Greek wine bar in Back Bay with a deep list and small plates built for sharing. Come for the wine, stay for meze.",
+      "lat": 42.348689,
+      "lng": -71.084067,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/krasi-boston"
+      }
+    },
+    {
+      "id": "buttermilk-bourbon",
+      "name": "Buttermilk & Bourbon",
+      "url": "https://www.buttermilkbourbon.com/",
+      "neighborhood": "Back Bay",
+      "favorite": false,
+      "blurb": "Some of the best fried chicken and biscuits in town. French onion soup is a sleeper hit.",
+      "lat": 42.3512752,
+      "lng": -71.0786216,
+      "address": "160 Commonwealth Ave, Boston, MA",
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/buttermilk-and-bourbon-boston"
+      }
+    },
+    {
+      "id": "contessa",
+      "name": "Contessa",
+      "url": "https://contessatrattoria.com/boston/",
+      "neighborhood": "Back Bay",
+      "favorite": false,
+      "blurb": "Holy atmosphere. Drinks are amazing, the room is amazing, and the food is just ok.",
+      "lat": 42.352821,
+      "lng": -71.071486,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/contessa"
+      }
+    },
+    {
+      "id": "faccia-a-faccia",
+      "name": "Faccia a Faccia",
+      "url": "https://facciaafacciaboston.com/",
+      "neighborhood": "Back Bay",
+      "favorite": false,
+      "blurb": "Same restaurant group as Little Donkey. Faccia a Faccia slaps. Not a weak plate in the meal; homemade pasta, and the caviar mozzarella sticks are genuinely novel.",
+      "lat": 42.349109,
+      "lng": -71.083681,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/faccia-a-faccia-boston"
+      }
+    },
+    {
+      "id": "mooo....",
+      "name": "Mooo....",
+      "url": "https://mooorestaurant.com/",
+      "neighborhood": "Back Bay",
+      "favorite": false,
+      "blurb": "Prime steak and fine wine. Treat yo self.",
+      "lat": 42.34945,
+      "lng": -71.050339,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/r/mooo-beacon-hill-boston"
+      }
+    },
+    {
+      "id": "al-dente",
+      "name": "Al Dente",
+      "url": "http://www.aldenteboston.com/",
+      "neighborhood": "North End",
+      "favorite": false,
+      "blurb": "Hole-in-the-wall for classic, heavy Italian. Homemade pasta delivers.",
+      "lat": 42.364235,
+      "lng": -71.055462,
+      "booking": null
+    },
+    {
+      "id": "ernestos",
+      "name": "Ernesto's",
+      "url": "http://www.ernestosnorthend.com/",
+      "neighborhood": "North End",
+      "favorite": false,
+      "blurb": "Casual pizza. Nothing fancy, and that’s fine.",
+      "lat": 42.36338,
+      "lng": -71.055908,
+      "booking": null
+    },
+    {
+      "id": "bovas-bakery",
+      "name": "Bova's Bakery",
+      "url": "http://bovabakeryboston.net/",
+      "neighborhood": "North End",
+      "favorite": true,
+      "blurb": "Best pastries in the North End, fight me. You’ll want one of everything; don’t miss the rainbow cookies. Open 24/7.",
+      "lat": 42.365195,
+      "lng": -71.055587,
+      "booking": null
+    },
+    {
+      "id": "cafe-vittoria",
+      "name": "Cafe Vittoria",
+      "url": "https://www.caffevittoria.com/",
+      "neighborhood": "North End",
+      "favorite": false,
+      "blurb": "Cash-only cafe for a drink and dessert after dinner.",
+      "lat": 42.364068,
+      "lng": -71.054375,
+      "booking": null
+    },
+    {
+      "id": "the-smoke-shop",
+      "name": "The Smoke Shop",
+      "url": "https://thesmokeshopbbq.com/",
+      "neighborhood": "Seaport",
+      "favorite": false,
+      "blurb": "Convenient Seaport BBQ. Sauces and platters with sides are the play.",
+      "lat": 42.35084,
+      "lng": -71.049483,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/the-smoke-shop-bbq-seaport"
+      }
+    },
+    {
+      "id": "trillium",
+      "name": "Trillium",
+      "url": "https://www.trilliumbrewing.com/",
+      "neighborhood": "Seaport",
+      "favorite": true,
+      "blurb": "Great local beer (especially the NE IPAs), plus a curated food menu and a huge patio / roof deck.",
+      "lat": 42.352149,
+      "lng": -71.047488,
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/trillium-fort-point"
+      }
+    },
+    {
+      "id": "committee",
+      "name": "Committee",
+      "url": "https://committeeboston.com/",
+      "neighborhood": "Seaport",
+      "favorite": false,
+      "blurb": "Mediterranean tapas done right. Sesame-crusted feta with Greek honey and the zucchini crisps are 💯.",
+      "lat": 42.353381,
+      "lng": -71.04615,
+      "booking": {
+        "platform": "opentable",
+        "url": "https://www.opentable.com/committee"
+      }
+    },
+    {
+      "id": "flour",
+      "name": "Flour",
+      "url": "https://flourbakery.com/",
+      "neighborhood": "Seaport",
+      "favorite": false,
+      "blurb": "Sandwiches, soups, salads, pastries: the office-lunch move. Used to work by the Seaport location and became a regular fast.",
+      "lat": 42.351248,
+      "lng": -71.048754,
+      "booking": null
+    },
+    {
+      "id": "la-morra",
+      "name": "La Morra",
+      "url": "https://lamorra.com/",
+      "neighborhood": "Brookline",
+      "favorite": false,
+      "blurb": "Excellent Italian. My sister’s all-time favorite Boston restaurant. Get the arancini.",
+      "lat": 42.3480537,
+      "lng": -71.1295042,
+      "address": "500 Harvard St, Brookline, MA",
+      "booking": {
+        "platform": "resy",
+        "url": "https://resy.com/cities/boston-ma/venues/la-morra"
+      }
+    },
+    {
+      "id": "zaftigs-delicatessen",
+      "name": "Zaftigs Delicatessen",
+      "url": "http://www.zaftigs.com/",
+      "neighborhood": "Brookline",
+      "favorite": false,
+      "blurb": "Solid Jewish deli for lunch or an easy dinner.",
+      "lat": 42.343826,
+      "lng": -71.123782,
+      "booking": null
+    },
+    {
+      "id": "santarpios",
+      "name": "Santarpio's",
+      "url": "https://www.santarpiospizza.com/",
+      "neighborhood": "East Boston",
+      "favorite": false,
+      "blurb": "Eastie institution (bakery in 1903, pizza since 1933). No frills: pizza, lamb skewers, steak tips, sausage, and still family-run. The narrow menu is the charm.",
+      "lat": 42.372669,
+      "lng": -71.035342,
+      "booking": null
+    }
+  ]
+}

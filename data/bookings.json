@@ -1,0 +1,151 @@
+{
+  "Giulia": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/giulia-restaurant"
+  },
+  "Little Donkey": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/little-donkey-cambridge"
+  },
+  "Oleana": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/oleana"
+  },
+  "Alden & Harlow": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/alden-and-harlow-cambridge"
+  },
+  "Mamaleh's": null,
+  "Source": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/source-restaurant-cambridge"
+  },
+  "Si Cara": null,
+  "Puritan & Company": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/puritan-and-company-cambridge"
+  },
+  "Pammy's": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/pammys-cambridge"
+  },
+  "Cafe Sushi": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/cambridge-ma/venues/cafe-sushi"
+  },
+  "Area Four": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/area-four"
+  },
+  "Sarma": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/sarma"
+  },
+  "Celeste": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/celeste-somerville"
+  },
+  "field & vine": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/field-and-vine"
+  },
+  "June Bug": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/somerville-ma/venues/june-bug"
+  },
+  "Spoke": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/spoke-wine-bar"
+  },
+  "Josephine": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/somerville-ma/venues/josephine-ma"
+  },
+  "Bow Market": null,
+  "Leone's": null,
+  "Ebi Sushi": null,
+  "Tsurumen": null,
+  "Sushi Kappo Toraya": null,
+  "MIDA": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/mida-south-end-boston"
+  },
+  "KAVA Neo-Taverna": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna"
+  },
+  "Barcelona": {
+    "platform": "tock",
+    "url": "https://www.exploretock.com/barcelona-wine-bar-south-end"
+  },
+  "The Beehive": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/beehive-boston"
+  },
+  "Fox and the Knife": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/fox-and-the-knife-south-boston"
+  },
+  "Bar Volpe": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/bar-volpe-boston"
+  },
+  "The Galley": null,
+  "Via Cannuccia": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/via-cannuccia-boston"
+  },
+  "Rondo's": null,
+  "American Provisions": null,
+  "Moonshine 152": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/moonshine-152-boston"
+  },
+  "Yellow Door Taqueria": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/yellow-door-taqueria-dorchester"
+  },
+  "Krasi": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/krasi-boston"
+  },
+  "Buttermilk & Bourbon": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/buttermilk-and-bourbon-boston"
+  },
+  "Contessa": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/contessa"
+  },
+  "Faccia a Faccia": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/faccia-a-faccia-boston"
+  },
+  "Mooo....": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/mooo-beacon-hill-boston"
+  },
+  "Al Dente": null,
+  "Ernesto's": null,
+  "Bova's Bakery": null,
+  "Cafe Vittoria": null,
+  "The Smoke Shop": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/the-smoke-shop-bbq-seaport"
+  },
+  "Trillium": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/trillium-fort-point"
+  },
+  "Committee": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/committee"
+  },
+  "Flour": null,
+  "La Morra": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/boston-ma/venues/la-morra"
+  },
+  "Zaftigs Delicatessen": null,
+  "Santarpio's": null
+}

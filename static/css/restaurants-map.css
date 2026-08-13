@@ -1,0 +1,271 @@
+:root {
+  --ink: #f4efe6;
+  --muted: rgba(244, 239, 230, 0.62);
+  --line: rgba(244, 239, 230, 0.12);
+  --panel: rgba(10, 12, 16, 0.78);
+  --gold: #e0b36a;
+  --cream: #f4efe6;
+  --bg: #07080b;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; background: var(--bg); color: var(--ink); }
+body {
+  font-family: Outfit, "Source Sans Pro", system-ui, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.map-app {
+  display: grid;
+  grid-template-columns: minmax(320px, 400px) 1fr;
+  height: 100%;
+}
+
+.map-panel {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  backdrop-filter: blur(22px);
+  border-right: 1px solid var(--line);
+  min-height: 0;
+}
+
+.map-panel__top { padding: 28px 24px 12px; }
+.map-home {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.map-home:hover { color: var(--ink); }
+h1 {
+  font-family: Fraunces, Georgia, serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1;
+  margin: 14px 0 8px;
+}
+.map-lede {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.map-search input {
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  padding: 10px 12px;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 14px;
+  outline: none;
+}
+.map-search input:focus { border-color: var(--gold); }
+
+.map-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+.map-chips button {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.map-chips button.is-on,
+.map-chips button:hover {
+  color: var(--bg);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.map-chips button.fav.is-on {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #1a1408;
+}
+
+.map-list {
+  overflow: auto;
+  padding: 8px 12px 32px;
+  min-height: 0;
+}
+.map-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line);
+  color: inherit;
+  padding: 14px 12px;
+  cursor: pointer;
+  font: inherit;
+}
+.map-card:hover, .map-card.is-active {
+  background: rgba(224, 179, 106, 0.08);
+}
+.map-card__name {
+  font-family: Fraunces, Georgia, serif;
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+.map-card__meta {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.map-card__blurb {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.map-card__book {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--bg);
+  background: var(--ink);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border-radius: 999px;
+}
+.map-card__book:hover { background: var(--gold); }
+
+.map-stage { position: relative; }
+#map { position: absolute; inset: 0; }
+.map-legend {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 1;
+  display: flex;
+  gap: 14px;
+  background: rgba(10,12,16,0.72);
+  backdrop-filter: blur(12px);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cream);
+  margin-right: 6px;
+  box-shadow: 0 0 0 3px rgba(244,239,230,0.18);
+}
+.dot.fav {
+  background: var(--gold);
+  box-shadow: 0 0 0 3px rgba(224,179,106,0.28);
+}
+
+.map-marker {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--cream);
+  box-shadow: 0 0 0 4px rgba(244,239,230,0.2), 0 8px 18px rgba(0,0,0,0.35);
+  cursor: pointer;
+}
+.map-marker.fav {
+  width: 16px;
+  height: 16px;
+  background: var(--gold);
+  box-shadow: 0 0 0 5px rgba(224,179,106,0.28), 0 8px 18px rgba(0,0,0,0.4);
+}
+.map-marker.is-active {
+  transform: scale(1.25);
+  box-shadow: 0 0 0 6px rgba(224,179,106,0.4), 0 10px 24px rgba(0,0,0,0.5);
+}
+
+.maplibregl-popup-content {
+  background: rgba(12,14,18,0.94) !important;
+  color: var(--ink);
+  border-radius: 12px !important;
+  padding: 12px 14px !important;
+  font-family: Outfit, sans-serif;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.4);
+}
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: rgba(12,14,18,0.94) !important; }
+.popup-name { font-family: Fraunces, serif; font-size: 16px; margin: 0 0 4px; }
+.popup-meta { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.popup-blurb { margin: 0 0 8px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+.popup-book { color: var(--gold); text-decoration: none; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+
+@media (max-width: 860px) {
+  html, body { height: auto; min-height: 100%; }
+  .map-app {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100dvh;
+  }
+  .map-stage {
+    order: -1;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    height: 38vh;
+    min-height: 220px;
+    flex: 0 0 auto;
+  }
+  .map-panel {
+    border-right: 0;
+    height: auto;
+    flex: 1 1 auto;
+  }
+  .map-panel__top { padding: 18px 18px 8px; }
+  .map-lede { margin-bottom: 12px; }
+  h1 { font-size: 24px; margin: 8px 0 8px; }
+  .map-search input { font-size: 16px; }
+  .map-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin: 12px -18px 0;
+    padding: 0 18px 10px;
+    gap: 8px;
+  }
+  .map-chips::-webkit-scrollbar { display: none; }
+  .map-chips button {
+    flex: 0 0 auto;
+    min-height: 36px;
+    padding: 8px 12px;
+  }
+  .map-list {
+    overflow: visible;
+    padding-bottom: 56px;
+  }
+  .map-legend { left: 10px; bottom: 8px; font-size: 10px; padding: 6px 10px; }
+  .maplibregl-ctrl-bottom-right {
+    max-width: 52%;
+    font-size: 9px;
+  }
+  .maplibregl-ctrl-top-right .maplibregl-ctrl-group button {
+    width: 36px !important;
+    height: 36px !important;
+  }
+}
