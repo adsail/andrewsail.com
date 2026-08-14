@@ -12,6 +12,10 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/giulia-restaurant"
+      },
+      "michelin": {
+        "award": "recommended",
+        "label": "Michelin Recommended"
       }
     },
     {
@@ -26,7 +30,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/little-donkey-cambridge"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "oleana",
@@ -40,6 +45,10 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/oleana"
+      },
+      "michelin": {
+        "award": "recommended",
+        "label": "Michelin Recommended"
       }
     },
     {
@@ -54,7 +63,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/alden-and-harlow-cambridge"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "mamalehs",
@@ -65,7 +75,8 @@
       "blurb": "Jewish deli, need I say more? Pastrami & egg sandwich for breakfast is a crowd-pleaser.",
       "lat": 42.36598,
       "lng": -71.091123,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "source",
@@ -79,7 +90,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/source-restaurant-cambridge"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "si-cara",
@@ -91,7 +103,8 @@
       "lat": 42.3657458,
       "lng": -71.1031564,
       "address": "627 Massachusetts Ave, Cambridge, MA",
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "puritan-company",
@@ -105,7 +118,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/puritan-and-company-cambridge"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "pammys",
@@ -119,6 +133,10 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/pammys-cambridge"
+      },
+      "michelin": {
+        "award": "recommended",
+        "label": "Michelin Recommended"
       }
     },
     {
@@ -133,7 +151,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/cambridge-ma/venues/cafe-sushi"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "area-four",
@@ -147,7 +166,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/area-four"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "sarma",
@@ -161,7 +181,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/sarma"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "celeste",
@@ -175,7 +196,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/celeste-somerville"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "field-vine",
@@ -189,7 +211,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/field-and-vine"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "june-bug",
@@ -203,7 +226,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/somerville-ma/venues/june-bug"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "spoke",
@@ -217,7 +241,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/spoke-wine-bar"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "josephine",
@@ -231,7 +256,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/somerville-ma/venues/josephine-ma"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "bow-market",
@@ -242,7 +268,8 @@
       "blurb": "Something for everyone: rotating pop-ups, Saus, Mike & Patty’s, Hotbox, Remnant Brewing, and Rebel Rebel (a natural wine bar that routinely gets hyped). Shop, patio dinner, a glass at Rebel Rebel, or a NEIPA at Remnant.",
       "lat": 42.381114,
       "lng": -71.098261,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "leones",
@@ -253,7 +280,8 @@
       "blurb": "Cash-only Sicilian pizza and subs. My go-to takeout pie.",
       "lat": 42.391932,
       "lng": -71.092501,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "ebi-sushi",
@@ -264,7 +292,8 @@
       "blurb": "Union Square sushi staple. Reliable, high-quality, and the kind of place you end up going back to without thinking.",
       "lat": 42.379091,
       "lng": -71.09463,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "tsurumen",
@@ -275,7 +304,8 @@
       "blurb": "Osaka-style ramen in Davis from Chef Onishi. Broth and noodles made seriously; lines happen for a reason.",
       "lat": 42.396188,
       "lng": -71.121847,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "sushi-kappo-toraya",
@@ -286,7 +316,8 @@
       "blurb": "Chef-owned Japanese in Arlington Center. Sushi and kappo-style plates, fresh as it gets. Worth the short hop from Cambridge / Somerville.",
       "lat": 42.416669,
       "lng": -71.158647,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "mida",
@@ -300,7 +331,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/mida-south-end-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "kava-neo-taverna",
@@ -314,7 +346,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "barcelona",
@@ -328,7 +361,8 @@
       "booking": {
         "platform": "tock",
         "url": "https://www.exploretock.com/barcelona-wine-bar-south-end"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "the-beehive",
@@ -342,7 +376,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/beehive-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "fox-and-the-knife",
@@ -356,6 +391,10 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/fox-and-the-knife-south-boston"
+      },
+      "michelin": {
+        "award": "bib",
+        "label": "Michelin Bib Gourmand"
       }
     },
     {
@@ -370,6 +409,10 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/bar-volpe-boston"
+      },
+      "michelin": {
+        "award": "bib",
+        "label": "Michelin Bib Gourmand"
       }
     },
     {
@@ -381,7 +424,8 @@
       "blurb": "Classic Southie breakfast: greasy diner food that cures a hangover. A dive, and perfect. Bourdain stopped here.",
       "lat": 42.33778,
       "lng": -71.027431,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "via-cannuccia",
@@ -396,7 +440,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/via-cannuccia-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "rondos",
@@ -407,7 +452,8 @@
       "blurb": "No-frills Southie sub shop. Another Bourdain stop.",
       "lat": 42.341016,
       "lng": -71.054016,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "american-provisions",
@@ -419,7 +465,8 @@
       "lat": 42.3353719,
       "lng": -71.0398106,
       "address": "613 E Broadway, Boston, MA",
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "moonshine-152",
@@ -433,7 +480,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/moonshine-152-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "yellow-door-taqueria",
@@ -447,7 +495,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/yellow-door-taqueria-dorchester"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "krasi",
@@ -461,7 +510,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/krasi-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "buttermilk-bourbon",
@@ -476,7 +526,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/buttermilk-and-bourbon-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "contessa",
@@ -490,7 +541,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/contessa"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "faccia-a-faccia",
@@ -504,7 +556,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/faccia-a-faccia-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "mooo....",
@@ -518,7 +571,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/mooo-beacon-hill-boston"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "al-dente",
@@ -529,7 +583,8 @@
       "blurb": "Hole-in-the-wall for classic, heavy Italian. Homemade pasta delivers.",
       "lat": 42.364235,
       "lng": -71.055462,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "ernestos",
@@ -540,7 +595,8 @@
       "blurb": "Casual pizza. Nothing fancy, and that’s fine.",
       "lat": 42.36338,
       "lng": -71.055908,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "bovas-bakery",
@@ -551,7 +607,8 @@
       "blurb": "Best pastries in the North End, fight me. You’ll want one of everything; don’t miss the rainbow cookies. Open 24/7.",
       "lat": 42.365195,
       "lng": -71.055587,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "cafe-vittoria",
@@ -562,7 +619,8 @@
       "blurb": "Cash-only cafe for a drink and dessert after dinner.",
       "lat": 42.364068,
       "lng": -71.054375,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "the-smoke-shop",
@@ -576,7 +634,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/the-smoke-shop-bbq-seaport"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "trillium",
@@ -590,7 +649,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/trillium-fort-point"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "committee",
@@ -604,7 +664,8 @@
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/committee"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "flour",
@@ -615,7 +676,8 @@
       "blurb": "Sandwiches, soups, salads, pastries: the office-lunch move. Used to work by the Seaport location and became a regular fast.",
       "lat": 42.351248,
       "lng": -71.048754,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "la-morra",
@@ -630,7 +692,8 @@
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/la-morra"
-      }
+      },
+      "michelin": null
     },
     {
       "id": "zaftigs-delicatessen",
@@ -641,7 +704,8 @@
       "blurb": "Solid Jewish deli for lunch or an easy dinner.",
       "lat": 42.343826,
       "lng": -71.123782,
-      "booking": null
+      "booking": null,
+      "michelin": null
     },
     {
       "id": "santarpios",
@@ -652,7 +716,8 @@
       "blurb": "Eastie institution (bakery in 1903, pizza since 1933). No frills: pizza, lamb skewers, steak tips, sausage, and still family-run. The narrow menu is the charm.",
       "lat": 42.372669,
       "lng": -71.035342,
-      "booking": null
+      "booking": null,
+      "michelin": null
     }
   ]
 }

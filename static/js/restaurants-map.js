@@ -8,6 +8,7 @@
   const neighborhoods = [...new Set(places.map((p) => p.neighborhood).filter(Boolean))];
   let neighborhood = "All";
   let favoritesOnly = false;
+  let michelinOnly = false;
   let query = "";
   let activeId = null;
   const markers = {};
@@ -27,6 +28,7 @@
     const q = query.trim().toLowerCase();
     return places.filter((p) => {
       if (favoritesOnly && !p.favorite) return false;
+      if (michelinOnly && !p.michelin) return false;
       if (neighborhood !== "All" && p.neighborhood !== neighborhood) return false;
       if (!q) return true;
       return (
@@ -37,6 +39,11 @@
     });
   }
 
+
+  function michelinLabel(p) {
+    if (!p.michelin) return "";
+    return p.michelin.label || (p.michelin.award === "bib" ? "Michelin Bib Gourmand" : "Michelin Recommended");
+  }
   function bookingLabel(p) {
     const b = p.booking;
     if (!b || !b.url) return null;
@@ -58,13 +65,18 @@
       btn.addEventListener("click", click);
       chipsEl.appendChild(btn);
     };
-    make("All", neighborhood === "All" && !favoritesOnly, null, () => {
+    make("All", neighborhood === "All" && !favoritesOnly && !michelinOnly, null, () => {
       neighborhood = "All";
       favoritesOnly = false;
+      michelinOnly = false;
       render();
     });
     make("Favorites", favoritesOnly, "fav", () => {
       favoritesOnly = !favoritesOnly;
+      render();
+    });
+    make("Michelin", michelinOnly, "michelin", () => {
+      michelinOnly = !michelinOnly;
       render();
     });
     neighborhoods.forEach((n) => {
@@ -83,7 +95,7 @@
     const reserve = book
       ? `<a class="popup-book" href="${p.booking.url}" target="_blank" rel="noopener">${book}</a>`
       : "";
-    return `<div class="popup-meta">${p.neighborhood || ""}${p.favorite ? " · Favorite" : ""}</div>
+    return `<div class="popup-meta">${p.neighborhood || ""}${p.favorite ? " · Favorite" : ""}${p.michelin ? " · " + michelinLabel(p) : ""}</div>
       <p class="popup-name">${p.name}</p>
       <p class="popup-blurb">${p.blurb || ""}</p>
       <div>${[reserve, site].filter(Boolean).join(" · ")}</div>`;
@@ -124,7 +136,7 @@
       btn.dataset.id = p.id;
       const book = bookingLabel(p);
       btn.innerHTML = `
-        <div class="map-card__meta">${p.neighborhood || ""}${p.favorite ? " · 🔥" : ""}</div>
+        <div class="map-card__meta">${p.neighborhood || ""}${p.favorite ? " · 🔥" : ""}${p.michelin ? ` · <span class="map-card__michelin">${michelinLabel(p)}</span>` : ""}</div>
         <h2 class="map-card__name">${p.name}</h2>
         <p class="map-card__blurb">${p.blurb || ""}</p>
         ${book ? `<a class="map-card__book" href="${p.booking.url}" target="_blank" rel="noopener">${book}</a>` : ""}
@@ -143,7 +155,7 @@
       if (!p.lat || !p.lng) return;
       if (!markers[p.id]) {
         const el = document.createElement("div");
-        el.className = "map-marker" + (p.favorite ? " fav" : "");
+        el.className = "map-marker" + (p.favorite ? " fav" : "") + (p.michelin ? " michelin" : "");
         el.title = p.name;
         const marker = new maplibregl.Marker({ element: el, anchor: "center" })
           .setLngLat([p.lng, p.lat])

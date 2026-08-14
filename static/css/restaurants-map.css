@@ -97,6 +97,12 @@ h1 {
   border-color: var(--gold);
   color: #1a1408;
 }
+.map-chips button.michelin.is-on {
+  background: #c8102e;
+  border-color: #c8102e;
+  color: #fff;
+}
+.map-card__michelin { color: #e35a6f; }
 
 .map-list {
   overflow: auto;
@@ -181,6 +187,10 @@ h1 {
   background: var(--gold);
   box-shadow: 0 0 0 3px rgba(224,179,106,0.28);
 }
+.dot.michelin {
+  background: var(--cream);
+  box-shadow: 0 0 0 3px #c8102e;
+}
 
 .map-marker {
   width: 14px;
@@ -195,6 +205,12 @@ h1 {
   height: 16px;
   background: var(--gold);
   box-shadow: 0 0 0 5px rgba(224,179,106,0.28), 0 8px 18px rgba(0,0,0,0.4);
+}
+.map-marker.michelin {
+  box-shadow: 0 0 0 3px #c8102e, 0 8px 18px rgba(0,0,0,0.35);
+}
+.map-marker.fav.michelin {
+  box-shadow: 0 0 0 3px #c8102e, 0 0 0 6px rgba(224,179,106,0.28), 0 8px 18px rgba(0,0,0,0.4);
 }
 .map-marker.is-active {
   transform: scale(1.25);
