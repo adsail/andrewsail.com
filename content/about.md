@@ -4,7 +4,7 @@ title: About
 
 ### 👋 Hi, I'm Andrew Sail
 
-I'm currently building Forward Deployed Engineering at Cursor, helping teams put AI coding agents to work in real production environments.
+I'm currently at SpaceXAI.
 
 In my free time I love to travel, fly single-engine aircraft (PPL), ski, golf, cook, and chase good wine and coffee.
 
