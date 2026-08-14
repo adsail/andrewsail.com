@@ -4,7 +4,7 @@ title: About
 
 ### 👋 Hi, I'm Andrew Sail
 
-I'm currently at SpaceXAI.
+I'm currently leading Forward Deployed Engineering at SpaceXAI.
 
 In my free time I love to travel, fly single-engine aircraft (PPL), ski, golf, cook, and chase good wine and coffee.
 
