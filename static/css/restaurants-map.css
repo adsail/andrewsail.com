@@ -70,9 +70,21 @@ h1 {
 
 .map-chips {
   display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 14px;
+}
+.map-chip-group__label {
+  margin: 0 0 6px;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.map-chip-row {
+  display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 14px;
 }
 .map-chips button {
   background: transparent;
@@ -102,6 +114,9 @@ h1 {
   border-color: #c8102e;
   color: #fff;
 }
+.map-chips button.vibe-takeout.is-on { background: #7d9a6f; border-color: #7d9a6f; color: #0d120c; }
+.map-chips button.vibe-casual.is-on { background: #8aa4c8; border-color: #8aa4c8; color: #0c1016; }
+.map-chips button.vibe-fancy.is-on { background: #c4a0d6; border-color: #c4a0d6; color: #160c18; }
 .map-card__michelin { color: #e35a6f; }
 
 .map-list {
@@ -258,14 +273,21 @@ h1 {
   h1 { font-size: 24px; margin: 8px 0 8px; }
   .map-search input { font-size: 16px; }
   .map-chips {
+    margin: 12px -18px 0;
+    padding: 0;
+    gap: 10px;
+  }
+  .map-chip-group__label {
+    padding: 0 18px;
+  }
+  .map-chip-row {
     flex-wrap: nowrap;
     overflow-x: auto;
     scrollbar-width: none;
-    margin: 12px -18px 0;
-    padding: 0 18px 10px;
+    padding: 0 18px 8px;
     gap: 8px;
   }
-  .map-chips::-webkit-scrollbar { display: none; }
+  .map-chip-row::-webkit-scrollbar { display: none; }
   .map-chips button {
     flex: 0 0 auto;
     min-height: 36px;

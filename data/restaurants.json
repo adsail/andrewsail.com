@@ -16,7 +16,9 @@
       "michelin": {
         "award": "recommended",
         "label": "Michelin Recommended"
-      }
+      },
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "little-donkey",
@@ -31,7 +33,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/little-donkey-cambridge"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "oleana",
@@ -49,7 +53,9 @@
       "michelin": {
         "award": "recommended",
         "label": "Michelin Recommended"
-      }
+      },
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "alden-harlow",
@@ -64,11 +70,13 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/alden-and-harlow-cambridge"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "mamalehs",
-      "name": "Mamaleh’s",
+      "name": "Mamaleh\u2019s",
       "url": "http://mamalehs.com/",
       "neighborhood": "Cambridge",
       "favorite": false,
@@ -76,7 +84,9 @@
       "lat": 42.36598,
       "lng": -71.091123,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "takeout",
+      "vibeLabel": "Takeout"
     },
     {
       "id": "source",
@@ -91,7 +101,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/source-restaurant-cambridge"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "si-cara",
@@ -104,7 +116,9 @@
       "lng": -71.1031564,
       "address": "627 Massachusetts Ave, Cambridge, MA",
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "puritan-company",
@@ -119,7 +133,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/puritan-and-company-cambridge"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "pammys",
@@ -137,7 +153,9 @@
       "michelin": {
         "award": "recommended",
         "label": "Michelin Recommended"
-      }
+      },
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "cafe-sushi",
@@ -152,7 +170,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/cambridge-ma/venues/cafe-sushi"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "area-four",
@@ -167,7 +187,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/area-four"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "sarma",
@@ -182,7 +204,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/sarma"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "celeste",
@@ -197,7 +221,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/celeste-somerville"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "field-vine",
@@ -212,7 +238,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/field-and-vine"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "june-bug",
@@ -220,14 +248,16 @@
       "url": "https://www.junebugrestaurant.com/",
       "neighborhood": "Somerville",
       "favorite": true,
-      "blurb": "field & vine’s wood-fired pizza project, also in Union Square. Pizza is excellent; wine list is epic.",
+      "blurb": "field & vine\u2019s wood-fired pizza project, also in Union Square. Pizza is excellent; wine list is epic.",
       "lat": 42.379727,
       "lng": -71.094371,
       "booking": {
         "platform": "resy",
         "url": "https://resy.com/cities/somerville-ma/venues/june-bug"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "spoke",
@@ -242,7 +272,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/spoke-wine-bar"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "josephine",
@@ -257,7 +289,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/somerville-ma/venues/josephine-ma"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "bow-market",
@@ -265,11 +299,13 @@
       "url": "https://www.bowmarketsomerville.com/",
       "neighborhood": "Somerville",
       "favorite": false,
-      "blurb": "Something for everyone: rotating pop-ups, Saus, Mike & Patty’s, Hotbox, Remnant Brewing, and Rebel Rebel (a natural wine bar that routinely gets hyped). Shop, patio dinner, a glass at Rebel Rebel, or a NEIPA at Remnant.",
+      "blurb": "Something for everyone: rotating pop-ups, Saus, Mike & Patty\u2019s, Hotbox, Remnant Brewing, and Rebel Rebel (a natural wine bar that routinely gets hyped). Shop, patio dinner, a glass at Rebel Rebel, or a NEIPA at Remnant.",
       "lat": 42.381114,
       "lng": -71.098261,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "leones",
@@ -281,7 +317,9 @@
       "lat": 42.391932,
       "lng": -71.092501,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "takeout",
+      "vibeLabel": "Takeout"
     },
     {
       "id": "ebi-sushi",
@@ -293,7 +331,9 @@
       "lat": 42.379091,
       "lng": -71.09463,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "tsurumen",
@@ -305,7 +345,9 @@
       "lat": 42.396188,
       "lng": -71.121847,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "sushi-kappo-toraya",
@@ -317,7 +359,9 @@
       "lat": 42.416669,
       "lng": -71.158647,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "mida",
@@ -325,14 +369,16 @@
       "url": "https://www.midaboston.com/",
       "neighborhood": "South End",
       "favorite": false,
-      "blurb": "Modern Italian. Get the arancini, ask for the bread, don’t skip tiramisu. Also in Newton and Eastie.",
+      "blurb": "Modern Italian. Get the arancini, ask for the bread, don\u2019t skip tiramisu. Also in Newton and Eastie.",
       "lat": 42.339022,
       "lng": -71.080472,
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/r/mida-south-end-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "kava-neo-taverna",
@@ -347,7 +393,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "barcelona",
@@ -355,14 +403,16 @@
       "url": "https://barcelonawinebar.com/location/south-end/",
       "neighborhood": "South End",
       "favorite": false,
-      "blurb": "Reliable tapas, especially for brunch. It’s a chain, and it basically never misses. Also Brookline and Cambridge.",
+      "blurb": "Reliable tapas, especially for brunch. It\u2019s a chain, and it basically never misses. Also Brookline and Cambridge.",
       "lat": 42.344575,
       "lng": -71.070864,
       "booking": {
         "platform": "tock",
         "url": "https://www.exploretock.com/barcelona-wine-bar-south-end"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "the-beehive",
@@ -377,7 +427,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/beehive-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "fox-and-the-knife",
@@ -385,7 +437,7 @@
       "url": "https://www.foxandtheknife.com/",
       "neighborhood": "Southie / Dorchester",
       "favorite": false,
-      "blurb": "Karen Akunowicz’s Southie hit: house ricotta, house pasta, great wine. Get the focaccia, and hunt the chocolate-dipped pistachio ice cream sandwiches (only 12 a night).",
+      "blurb": "Karen Akunowicz\u2019s Southie hit: house ricotta, house pasta, great wine. Get the focaccia, and hunt the chocolate-dipped pistachio ice cream sandwiches (only 12 a night).",
       "lat": 42.342661,
       "lng": -71.056548,
       "booking": {
@@ -395,7 +447,9 @@
       "michelin": {
         "award": "bib",
         "label": "Michelin Bib Gourmand"
-      }
+      },
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "bar-volpe",
@@ -413,7 +467,9 @@
       "michelin": {
         "award": "bib",
         "label": "Michelin Bib Gourmand"
-      }
+      },
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "the-galley",
@@ -425,7 +481,9 @@
       "lat": 42.33778,
       "lng": -71.027431,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "via-cannuccia",
@@ -441,11 +499,13 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/via-cannuccia-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "rondos",
-      "name": "Rondo’s",
+      "name": "Rondo\u2019s",
       "url": "",
       "neighborhood": "Southie / Dorchester",
       "favorite": false,
@@ -453,7 +513,9 @@
       "lat": 42.341016,
       "lng": -71.054016,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "takeout",
+      "vibeLabel": "Takeout"
     },
     {
       "id": "american-provisions",
@@ -461,12 +523,14 @@
       "url": "https://www.americanprovisions.com/",
       "neighborhood": "Southie / Dorchester",
       "favorite": false,
-      "blurb": "Neighborhood shop with excellent sandwiches, coffee (beans + drinks), bread, wine / beer / pasta / sauces, and some prepared food. Owner also opened Gray’s Hall wine bar next door.",
+      "blurb": "Neighborhood shop with excellent sandwiches, coffee (beans + drinks), bread, wine / beer / pasta / sauces, and some prepared food. Owner also opened Gray\u2019s Hall wine bar next door.",
       "lat": 42.3353719,
       "lng": -71.0398106,
       "address": "613 E Broadway, Boston, MA",
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "takeout",
+      "vibeLabel": "Takeout"
     },
     {
       "id": "moonshine-152",
@@ -481,7 +545,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/moonshine-152-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "yellow-door-taqueria",
@@ -496,7 +562,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/yellow-door-taqueria-dorchester"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "krasi",
@@ -511,7 +579,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/krasi-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "buttermilk-bourbon",
@@ -527,7 +597,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/buttermilk-and-bourbon-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "contessa",
@@ -542,7 +614,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/contessa"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "faccia-a-faccia",
@@ -557,7 +631,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/faccia-a-faccia-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "mooo....",
@@ -572,7 +648,9 @@
         "platform": "opentable",
         "url": "https://www.opentable.com/r/mooo-beacon-hill-boston"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "al-dente",
@@ -584,19 +662,9 @@
       "lat": 42.364235,
       "lng": -71.055462,
       "booking": null,
-      "michelin": null
-    },
-    {
-      "id": "ernestos",
-      "name": "Ernesto's",
-      "url": "http://www.ernestosnorthend.com/",
-      "neighborhood": "North End",
-      "favorite": false,
-      "blurb": "Casual pizza. Nothing fancy, and that’s fine.",
-      "lat": 42.36338,
-      "lng": -71.055908,
-      "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "bovas-bakery",
@@ -604,11 +672,13 @@
       "url": "http://bovabakeryboston.net/",
       "neighborhood": "North End",
       "favorite": true,
-      "blurb": "Best pastries in the North End, fight me. You’ll want one of everything; don’t miss the rainbow cookies. Open 24/7.",
+      "blurb": "Best pastries in the North End, fight me. You\u2019ll want one of everything; don\u2019t miss the rainbow cookies. Open 24/7.",
       "lat": 42.365195,
       "lng": -71.055587,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "takeout",
+      "vibeLabel": "Takeout"
     },
     {
       "id": "cafe-vittoria",
@@ -620,7 +690,9 @@
       "lat": 42.364068,
       "lng": -71.054375,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "the-smoke-shop",
@@ -635,7 +707,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/the-smoke-shop-bbq-seaport"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "trillium",
@@ -650,7 +724,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/trillium-fort-point"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "committee",
@@ -658,14 +734,16 @@
       "url": "https://committeeboston.com/",
       "neighborhood": "Seaport",
       "favorite": false,
-      "blurb": "Mediterranean tapas done right. Sesame-crusted feta with Greek honey and the zucchini crisps are 💯.",
+      "blurb": "Mediterranean tapas done right. Sesame-crusted feta with Greek honey and the zucchini crisps are \ud83d\udcaf.",
       "lat": 42.353381,
       "lng": -71.04615,
       "booking": {
         "platform": "opentable",
         "url": "https://www.opentable.com/committee"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "flour",
@@ -677,7 +755,9 @@
       "lat": 42.351248,
       "lng": -71.048754,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "takeout",
+      "vibeLabel": "Takeout"
     },
     {
       "id": "la-morra",
@@ -685,7 +765,7 @@
       "url": "https://lamorra.com/",
       "neighborhood": "Brookline",
       "favorite": false,
-      "blurb": "Excellent Italian. My sister’s all-time favorite Boston restaurant. Get the arancini.",
+      "blurb": "Excellent Italian. My sister\u2019s all-time favorite Boston restaurant. Get the arancini.",
       "lat": 42.3480537,
       "lng": -71.1295042,
       "address": "500 Harvard St, Brookline, MA",
@@ -693,7 +773,9 @@
         "platform": "resy",
         "url": "https://resy.com/cities/boston-ma/venues/la-morra"
       },
-      "michelin": null
+      "michelin": null,
+      "vibe": "fancy",
+      "vibeLabel": "Fancy"
     },
     {
       "id": "zaftigs-delicatessen",
@@ -705,7 +787,9 @@
       "lat": 42.343826,
       "lng": -71.123782,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     },
     {
       "id": "santarpios",
@@ -717,7 +801,9 @@
       "lat": 42.372669,
       "lng": -71.035342,
       "booking": null,
-      "michelin": null
+      "michelin": null,
+      "vibe": "casual",
+      "vibeLabel": "Casual"
     }
   ]
 }

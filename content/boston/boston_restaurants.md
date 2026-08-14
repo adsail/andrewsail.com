@@ -143,8 +143,6 @@ Prime steak and fine wine. Treat yo self.
 ### [Al Dente](http://www.aldenteboston.com/)
 Hole-in-the-wall for classic, heavy Italian. Homemade pasta delivers.
 
-### [Ernesto's](http://www.ernestosnorthend.com/)
-Casual pizza. Nothing fancy, and that’s fine.
 
 ### [Bova's Bakery](http://bovabakeryboston.net/) 🔥
 Best pastries in the North End, fight me. You’ll want one of everything; don’t miss the rainbow cookies. Open 24/7.

@@ -9,6 +9,7 @@
   let neighborhood = "All";
   let favoritesOnly = false;
   let michelinOnly = false;
+  let vibe = "All";
   let query = "";
   let activeId = null;
   const markers = {};
@@ -29,6 +30,7 @@
     return places.filter((p) => {
       if (favoritesOnly && !p.favorite) return false;
       if (michelinOnly && !p.michelin) return false;
+      if (vibe !== "All" && p.vibe !== vibe) return false;
       if (neighborhood !== "All" && p.neighborhood !== neighborhood) return false;
       if (!q) return true;
       return (
@@ -56,31 +58,56 @@
 
   function renderChips() {
     chipsEl.innerHTML = "";
-    const make = (label, on, extra, click) => {
+    const make = (parent, label, on, extra, click) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.textContent = label;
       if (extra) btn.classList.add(extra);
       if (on) btn.classList.add("is-on");
       btn.addEventListener("click", click);
-      chipsEl.appendChild(btn);
+      parent.appendChild(btn);
     };
-    make("All", neighborhood === "All" && !favoritesOnly && !michelinOnly, null, () => {
-      neighborhood = "All";
-      favoritesOnly = false;
-      michelinOnly = false;
-      render();
-    });
-    make("Favorites", favoritesOnly, "fav", () => {
+    const group = (title) => {
+      const wrap = document.createElement("div");
+      wrap.className = "map-chip-group";
+      const lab = document.createElement("p");
+      lab.className = "map-chip-group__label";
+      lab.textContent = title;
+      const row = document.createElement("div");
+      row.className = "map-chip-row";
+      wrap.appendChild(lab);
+      wrap.appendChild(row);
+      chipsEl.appendChild(wrap);
+      return row;
+    };
+
+    const cat = group("Category");
+    make(cat, "Favorites", favoritesOnly, "fav", () => {
       favoritesOnly = !favoritesOnly;
       render();
     });
-    make("Michelin", michelinOnly, "michelin", () => {
+    make(cat, "Michelin", michelinOnly, "michelin", () => {
       michelinOnly = !michelinOnly;
       render();
     });
+    ["takeout", "casual", "fancy"].forEach((v) => {
+      const labels = { takeout: "Takeout", casual: "Casual", fancy: "Fancy" };
+      make(cat, labels[v], vibe === v, "vibe-" + v, () => {
+        vibe = vibe === v ? "All" : v;
+        render();
+      });
+    });
+
+    const hood = group("Neighborhood");
+    make(hood, "All", neighborhood === "All" && !favoritesOnly && !michelinOnly && vibe === "All", null, () => {
+      neighborhood = "All";
+      favoritesOnly = false;
+      michelinOnly = false;
+      vibe = "All";
+      render();
+    });
     neighborhoods.forEach((n) => {
-      make(n, neighborhood === n, null, () => {
+      make(hood, n, neighborhood === n, null, () => {
         neighborhood = neighborhood === n ? "All" : n;
         render();
       });
@@ -95,7 +122,7 @@
     const reserve = book
       ? `<a class="popup-book" href="${p.booking.url}" target="_blank" rel="noopener">${book}</a>`
       : "";
-    return `<div class="popup-meta">${p.neighborhood || ""}${p.favorite ? " · Favorite" : ""}${p.michelin ? " · " + michelinLabel(p) : ""}</div>
+    return `<div class="popup-meta">${p.neighborhood || ""}${p.vibeLabel ? " · " + p.vibeLabel : ""}${p.favorite ? " · Favorite" : ""}${p.michelin ? " · " + michelinLabel(p) : ""}</div>
       <p class="popup-name">${p.name}</p>
       <p class="popup-blurb">${p.blurb || ""}</p>
       <div>${[reserve, site].filter(Boolean).join(" · ")}</div>`;
@@ -136,7 +163,7 @@
       btn.dataset.id = p.id;
       const book = bookingLabel(p);
       btn.innerHTML = `
-        <div class="map-card__meta">${p.neighborhood || ""}${p.favorite ? " · 🔥" : ""}${p.michelin ? ` · <span class="map-card__michelin">${michelinLabel(p)}</span>` : ""}</div>
+        <div class="map-card__meta">${p.neighborhood || ""}${p.vibeLabel ? " · " + p.vibeLabel : ""}${p.favorite ? " · 🔥" : ""}${p.michelin ? ` · <span class="map-card__michelin">${michelinLabel(p)}</span>` : ""}</div>
         <h2 class="map-card__name">${p.name}</h2>
         <p class="map-card__blurb">${p.blurb || ""}</p>
         ${book ? `<a class="map-card__book" href="${p.booking.url}" target="_blank" rel="noopener">${book}</a>` : ""}
