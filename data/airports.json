@@ -1,0 +1,94 @@
+{
+  "source": "ourairports",
+  "source_url": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+  "airports": [
+    {
+      "ident": "KBED",
+      "name": "Laurence G. Hanscom Field",
+      "city": "Bedford",
+      "state": "MA",
+      "lat": 42.470001,
+      "lng": -71.289001,
+      "landings": 69,
+      "source": "logbook",
+      "home": true
+    },
+    {
+      "ident": "KBVY",
+      "name": "Beverly Regional",
+      "city": "Beverly",
+      "state": "MA",
+      "lat": 42.584202,
+      "lng": -70.916496,
+      "landings": 4,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KPWM",
+      "name": "Portland International Jetport",
+      "city": "Portland",
+      "state": "ME",
+      "lat": 43.646198,
+      "lng": -70.309303,
+      "landings": 2,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KRNO",
+      "name": "Reno-Tahoe International",
+      "city": "Reno",
+      "state": "NV",
+      "lat": 39.4991,
+      "lng": -119.767998,
+      "landings": 2,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KRKD",
+      "name": "Knox County Regional",
+      "city": "Owls Head / Rockland",
+      "state": "ME",
+      "lat": 44.060101,
+      "lng": -69.099197,
+      "landings": 1,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KSFM",
+      "name": "Sanford Seacoast Regional",
+      "city": "Sanford",
+      "state": "ME",
+      "lat": 43.393902,
+      "lng": -70.708,
+      "landings": 1,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "1B2",
+      "name": "Katama Airpark",
+      "city": "Edgartown / Martha's Vineyard",
+      "state": "MA",
+      "lat": 41.358299,
+      "lng": -70.524399,
+      "landings": 1,
+      "source": "manual",
+      "home": false
+    },
+    {
+      "ident": "KLDJ",
+      "name": "Linden Airport",
+      "city": "Linden",
+      "state": "NJ",
+      "lat": 40.617401,
+      "lng": -74.244598,
+      "landings": 1,
+      "source": "manual",
+      "home": false
+    }
+  ]
+}

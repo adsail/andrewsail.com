@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ .Title }} · Andrew Sail</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ "css/airports-map.css" | relURL }}" />
+    {{ template "_internal/google_analytics.html" . }}
+</head>
+<body class="map-page">
+    <div class="map-app">
+        <aside class="map-panel">
+            <header class="map-panel__top">
+                <a class="map-home" href="{{ "/" | relURL }}">Andrew Sail</a>
+                <h1>Airports</h1>
+                <p class="map-lede">Every field I've flown into as a PPL. Click a pin or a name.</p>
+                <div class="map-search">
+                    <input id="map-filter" type="search" placeholder="Search the list" autocomplete="off" />
+                </div>
+                <div class="map-chips" id="map-chips"></div>
+            </header>
+            <div class="map-list" id="map-list"></div>
+        </aside>
+        <div class="map-stage">
+            <div id="map"></div>
+            <div class="map-legend">
+                <span><i class="dot home"></i> Home</span>
+                <span><i class="dot logbook"></i> Logbook</span>
+                <span><i class="dot added"></i> Added</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script>
+      window.AIRPORTS = {{ (index .Site.Data "airports") | jsonify | safeJS }};
+    </script>
+    <script src="{{ "js/airports-map.js" | relURL }}"></script>
+</body>
+</html>
