@@ -39,7 +39,6 @@
     return airports.filter((a) => {
       if (region === "New England" && regionOf(a) !== "New England") return false;
       if (region === "West" && regionOf(a) !== "West") return false;
-      if (region === "Added" && a.source !== "manual") return false;
       if (!q) return true;
       return (
         (a.ident || "").toLowerCase().includes(q) ||
@@ -73,9 +72,7 @@
   }
 
   function pinKind(a) {
-    if (a.home) return "home";
-    if (a.source === "manual") return "added";
-    return "logbook";
+    return a.home ? "home" : "logbook";
   }
 
   function boundsPadding() {
@@ -106,7 +103,6 @@
       ["All", "All", null],
       ["New England", "New England", null],
       ["West", "West", null],
-      ["Added", "Added", "chip-added"],
     ].forEach(([label, value, extra]) => {
       const btn = document.createElement("button");
       btn.type = "button";
@@ -123,8 +119,7 @@
   }
 
   function popupHtml(a) {
-    const kind = a.home ? "Home base" : a.source === "manual" ? "Added" : "Logbook";
-    return `<div class="popup-meta">${escapeHtml(a.ident)} · ${kind}</div>
+    return `<div class="popup-meta">${escapeHtml(a.ident)}${a.home ? " · Home base" : ""}</div>
       <p class="popup-name">${escapeHtml(a.name)}</p>
       <p class="popup-blurb">${escapeHtml(placeLine(a))}<br>${escapeHtml(landingsLabel(a))}</p>`;
   }

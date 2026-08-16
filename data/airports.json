@@ -76,7 +76,7 @@
       "lat": 41.358299,
       "lng": -70.524399,
       "landings": 1,
-      "source": "manual",
+      "source": "logbook",
       "home": false
     },
     {
@@ -87,7 +87,7 @@
       "lat": 40.617401,
       "lng": -74.244598,
       "landings": 1,
-      "source": "manual",
+      "source": "logbook",
       "home": false
     }
   ]
