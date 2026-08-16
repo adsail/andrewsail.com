@@ -92,8 +92,6 @@ Incredible Greek tapas. Reservations open only a day ahead, so watch Resy and pl
 ### [Barcelona](https://barcelonawinebar.com/location/south-end/)
 Reliable tapas, especially for brunch. It’s a chain, and it basically never misses. Also Brookline and Cambridge.
 
-### [The Beehive](https://www.beehiveboston.com/)
-Fun room, jazz downstairs more often than not. Solid food, inventive cocktails.
 
 ## Southie / Dorchester
 

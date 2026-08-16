@@ -415,23 +415,6 @@
       "vibeLabel": "Casual"
     },
     {
-      "id": "the-beehive",
-      "name": "The Beehive",
-      "url": "https://www.beehiveboston.com/",
-      "neighborhood": "South End",
-      "favorite": false,
-      "blurb": "Fun room, jazz downstairs more often than not. Solid food, inventive cocktails.",
-      "lat": 42.344373,
-      "lng": -71.071381,
-      "booking": {
-        "platform": "opentable",
-        "url": "https://www.opentable.com/r/beehive-boston"
-      },
-      "michelin": null,
-      "vibe": "casual",
-      "vibeLabel": "Casual"
-    },
-    {
       "id": "fox-and-the-knife",
       "name": "Fox and the Knife",
       "url": "https://www.foxandtheknife.com/",
