@@ -11,7 +11,7 @@
       "lng": -71.289001,
       "landings": 69,
       "source": "logbook",
-      "home": true
+      "home": false
     },
     {
       "ident": "KBVY",
@@ -20,9 +20,9 @@
       "state": "MA",
       "lat": 42.584202,
       "lng": -70.916496,
-      "landings": 4,
+      "landings": 5,
       "source": "logbook",
-      "home": false
+      "home": true
     },
     {
       "ident": "KPWM",
@@ -31,7 +31,7 @@
       "state": "ME",
       "lat": 43.646198,
       "lng": -70.309303,
-      "landings": 2,
+      "landings": 5,
       "source": "logbook",
       "home": false
     },
@@ -64,7 +64,7 @@
       "state": "ME",
       "lat": 43.393902,
       "lng": -70.708,
-      "landings": 1,
+      "landings": 5,
       "source": "logbook",
       "home": false
     },
@@ -86,6 +86,39 @@
       "state": "NJ",
       "lat": 40.617401,
       "lng": -74.244598,
+      "landings": 1,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KEEN",
+      "name": "Dillant Hopkins",
+      "city": "Keene",
+      "state": "NH",
+      "lat": 42.898399,
+      "lng": -72.270798,
+      "landings": 2,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KFIT",
+      "name": "Fitchburg Municipal",
+      "city": "Fitchburg",
+      "state": "MA",
+      "lat": 42.5541,
+      "lng": -71.759003,
+      "landings": 4,
+      "source": "logbook",
+      "home": false
+    },
+    {
+      "ident": "KASH",
+      "name": "Nashua / Boire Field",
+      "city": "Nashua",
+      "state": "NH",
+      "lat": 42.7817,
+      "lng": -71.514801,
       "landings": 1,
       "source": "logbook",
       "home": false

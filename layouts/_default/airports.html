@@ -4,6 +4,17 @@
     <title>{{ .Title }} · Andrew Sail</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <script>
+      (function () {
+        var key = "andrewsail-map-theme";
+        var t;
+        try { t = localStorage.getItem(key); } catch (e) {}
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        }
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +27,18 @@
     <div class="map-app">
         <aside class="map-panel">
             <header class="map-panel__top">
-                <a class="map-home" href="{{ "/" | relURL }}">Andrew Sail</a>
+                <div class="map-panel__brand">
+                    <a class="map-home" href="{{ "/" | relURL }}">Andrew Sail</a>
+                    <button type="button" class="map-theme" id="map-theme" aria-label="Switch to light mode">
+                        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                            <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M12 3v1.5M12 19.5V21M4.93 4.93l1.06 1.06M18.01 18.01l1.06 1.06M3 12h1.5M19.5 12H21M4.93 19.07l1.06-1.06M18.01 5.99l1.06-1.06"/>
+                        </svg>
+                        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" d="M15.5 4.2A8.2 8.2 0 1 0 19.8 15 6.4 6.4 0 0 1 15.5 4.2z"/>
+                        </svg>
+                    </button>
+                </div>
                 <h1>Airports</h1>
                 <p class="map-lede">Every field I've flown into as a PPL. Click a pin or a name.</p>
                 <div class="map-search">
@@ -38,6 +60,7 @@
     <script>
       window.AIRPORTS = {{ (index .Site.Data "airports") | jsonify | safeJS }};
     </script>
+    <script src="{{ "js/map-theme.js" | relURL }}"></script>
     <script src="{{ "js/airports-map.js" | relURL }}"></script>
 </body>
 </html>

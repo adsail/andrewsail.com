@@ -14,9 +14,20 @@
   let activeId = null;
   const markers = {};
 
+  function themeName() {
+    if (window.AndrewSailMapTheme) return AndrewSailMapTheme.current();
+    return document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  }
+  function themeStyle() {
+    if (window.AndrewSailMapTheme) return AndrewSailMapTheme.styleUrl(themeName());
+    return themeName() === "light"
+      ? "https://tiles.openfreemap.org/styles/liberty"
+      : "https://tiles.openfreemap.org/styles/dark";
+  }
+
   const map = new maplibregl.Map({
     container: "map",
-    style: "https://tiles.openfreemap.org/styles/dark",
+    style: themeStyle(),
     center: [-71.08, 42.36],
     zoom: 11.4,
     pitch: 42,
@@ -191,6 +202,14 @@
         markers[p.id] = marker;
       }
       markers[p.id].getElement().style.display = vis.has(p.id) ? "block" : "none";
+      markers[p.id].getElement().classList.toggle("is-active", p.id === activeId);
+    });
+  }
+
+  function clearMarkers() {
+    Object.keys(markers).forEach((id) => {
+      markers[id].remove();
+      delete markers[id];
     });
   }
 
@@ -205,9 +224,23 @@
     render();
   });
 
+  let themeStyleReady = false;
   map.on("load", function () {
     render();
     map.resize();
+    themeStyleReady = true;
+  });
+  map.on("style.load", function () {
+    if (!themeStyleReady) {
+      themeStyleReady = true;
+      return;
+    }
+    clearMarkers();
+    renderMarkers();
+    map.resize();
+  });
+  document.addEventListener("andrewsail-map-theme", function () {
+    map.setStyle(themeStyle());
   });
   window.addEventListener("resize", function () { map.resize(); });
 })();

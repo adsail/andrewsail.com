@@ -17,9 +17,20 @@
   const markers = {};
   let popup = null;
 
+  function themeName() {
+    if (window.AndrewSailMapTheme) return AndrewSailMapTheme.current();
+    return document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  }
+  function themeStyle() {
+    if (window.AndrewSailMapTheme) return AndrewSailMapTheme.styleUrl(themeName());
+    return themeName() === "light"
+      ? "https://tiles.openfreemap.org/styles/liberty"
+      : "https://tiles.openfreemap.org/styles/dark";
+  }
+
   const map = new maplibregl.Map({
     container: "map",
-    style: "https://tiles.openfreemap.org/styles/dark",
+    style: themeStyle(),
     center: [-96, 39.2],
     zoom: 3.3,
     pitch: 10,
@@ -119,7 +130,7 @@
   }
 
   function popupHtml(a) {
-    return `<div class="popup-meta">${escapeHtml(a.ident)}${a.home ? " · Home base" : ""}</div>
+    return `<div class="popup-meta">${escapeHtml(a.ident)}${a.home ? " · Home field" : ""}</div>
       <p class="popup-name">${escapeHtml(a.name)}</p>
       <p class="popup-blurb">${escapeHtml(placeLine(a))}<br>${escapeHtml(landingsLabel(a))}</p>`;
   }
@@ -163,7 +174,7 @@
       btn.type = "button";
       btn.className = "map-card" + (a.id === activeId ? " is-active" : "");
       btn.dataset.id = a.id;
-      const extra = a.home ? " · Home base" : "";
+      const extra = a.home ? " · Home field" : "";
       btn.innerHTML = `
         <div class="map-card__row">
           <div>
@@ -195,6 +206,14 @@
         markers[a.id] = marker;
       }
       markers[a.id].getElement().style.display = vis.has(a.id) ? "flex" : "none";
+      markers[a.id].getElement().classList.toggle("is-active", a.id === activeId);
+    });
+  }
+
+  function clearMarkers() {
+    Object.keys(markers).forEach((id) => {
+      markers[id].remove();
+      delete markers[id];
     });
   }
 
@@ -209,10 +228,24 @@
     render();
   });
 
+  let themeStyleReady = false;
   map.on("load", function () {
     render();
     fitVisible({ instant: true });
     map.resize();
+    themeStyleReady = true;
+  });
+  map.on("style.load", function () {
+    if (!themeStyleReady) {
+      themeStyleReady = true;
+      return;
+    }
+    clearMarkers();
+    renderMarkers();
+    map.resize();
+  });
+  document.addEventListener("andrewsail-map-theme", function () {
+    map.setStyle(themeStyle());
   });
   window.addEventListener("resize", function () { map.resize(); });
 })();
