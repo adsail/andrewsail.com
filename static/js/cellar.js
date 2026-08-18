@@ -33,7 +33,6 @@
     { id: "vault", label: "Vault" },
     { id: "drink_soon", label: "Drink soon" },
     { id: "sentimental", label: "Sentimental" },
-    { id: "domaine", label: "Domaine" },
   ];
   const TYPE_CHIPS = [
     { id: "red", label: "Red" },
@@ -47,7 +46,6 @@
     hold: "Hold",
     drink_soon: "Drink soon",
     sentimental: "Sentimental",
-    domaine: "Domaine",
   };
   const COUNTRY_ORDER = [
     "France",
@@ -140,7 +138,6 @@
     if (status === "vault") return special === "vault";
     if (status === "drink_soon") return special === "drink_soon";
     if (status === "sentimental") return special === "sentimental";
-    if (status === "domaine") return special === "domaine";
     return true;
   }
 
@@ -177,6 +174,11 @@
       ;
   }
 
+  function yearOf(v) {
+    const n = Number(v);
+    return Number.isFinite(n) ? n : null;
+  }
+
   function drinkWindow(b) {
     const start = b.drink_start;
     const end = b.drink_end;
@@ -184,6 +186,23 @@
     if (specialOf(b) === "hold" || b.ready_now === "not_yet") return "hold";
     if (b.ready_now === "yes") return "ready";
     return "";
+  }
+
+  const NOW_YEAR = new Date().getFullYear();
+  const DRINK_STATUS = {
+    drink: { id: "drink", label: "Drink" },
+    hold: { id: "hold", label: "Hold" },
+    past: { id: "past", label: "Past" },
+  };
+
+  function drinkStatus(b) {
+    const start = yearOf(b.drink_start);
+    const end = yearOf(b.drink_end);
+    if (end != null && NOW_YEAR > end) return DRINK_STATUS.past;
+    if (start != null && NOW_YEAR < start) return DRINK_STATUS.hold;
+    if (start != null || end != null) return DRINK_STATUS.drink;
+    if (specialOf(b) === "hold" || b.ready_now === "not_yet") return DRINK_STATUS.hold;
+    return DRINK_STATUS.drink;
   }
 
   function placeLine(b) {
@@ -260,19 +279,22 @@
     const vintage = b.vintage ? esc(b.vintage) : "NV";
     const qty = qtyOf(b);
     const windowText = drinkWindow(b);
+    const drink = drinkStatus(b);
     const place = placeLine(b);
     const open = openId === b._id;
-    const hasDetail = !!(b.story || (special && SPECIAL_LABELS[special]));
+    const typeLabel = TYPE_LABELS[typeOf(b)] || "";
+    const meta = [typeLabel, b.grapePrimary || b.grapes || "", b.size || ""].filter(Boolean).join(" · ");
     let detail = "";
-    if (open && hasDetail) {
+    if (open) {
       const bits = [];
-      if (special && SPECIAL_LABELS[special]) {
+      if (special && special !== "domaine" && SPECIAL_LABELS[special]) {
         bits.push('<span class="cellar-badge cellar-badge--' + esc(special) + '">' + esc(SPECIAL_LABELS[special]) + "</span>");
       }
       detail =
         '<div class="cellar-row__detail">' +
         (bits.length ? '<div class="cellar-card__badges">' + bits.join("") + "</div>" : "") +
         (b.story ? '<p class="cellar-row__story">' + esc(b.story) + "</p>" : "") +
+        (meta ? '<p class="cellar-row__meta">' + esc(meta) + "</p>" : "") +
         "</div>";
     }
     return (
@@ -282,9 +304,9 @@
       '">' +
       '<button type="button" class="cellar-row" data-id="' +
       b._id +
-      '"' +
-      (hasDetail ? "" : " data-static=\"1\"") +
-      ">" +
+      '" aria-expanded="' +
+      (open ? "true" : "false") +
+      '">' +
       '<span class="cellar-row__vintage">' +
       vintage +
       "</span>" +
@@ -300,9 +322,17 @@
       '<span class="cellar-row__qty">' +
       (qty > 1 ? "×" + qty : "") +
       "</span>" +
+      '<span class="cellar-row__drink">' +
+      '<span class="cellar-row__status cellar-row__status--' +
+      drink.id +
+      '">' +
+      drink.label +
+      "</span>" +
       '<span class="cellar-row__window">' +
       esc(windowText) +
       "</span>" +
+      "</span>" +
+      '<span class="cellar-row__chevron" aria-hidden="true"></span>' +
       "</button>" +
       detail +
       "</div>"
@@ -417,7 +447,7 @@
 
   gridEl.addEventListener("click", (e) => {
     const row = e.target.closest(".cellar-row");
-    if (!row || row.dataset.static === "1") return;
+    if (!row) return;
     const id = Number(row.dataset.id);
     openId = openId === id ? null : id;
     renderGrid();
