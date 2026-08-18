@@ -25,8 +25,8 @@ Inventory,Domaine Tollot-Beaut Chorey-Lès-Beaune,2012,red,Pinot Noir,Domaine To
 Inventory,Emeritus Hallberg Ranch Pinot Noir,2021,red,Pinot Noir,Emeritus Vineyards,United States,California,Russian River Valley,750ml,2,52.95,105.90,,,2024-2031,
 Inventory,Emilio Moro Malleolus,2022,red,Tempranillo,Emilio Moro,Spain,Castilla y Leon,Ribera del Duero,750ml,1,48.16,48.16,,,2027-2037,Gift
 Inventory,Emme Wines Ricetti Vineyard You're Lucky You're So Cute Zinfandel Redwood Valley,2023,red,Zinfandel,Emme Wines,United States,California,Redwood Valley,750ml,1,,,,,2025-2031,
-Inventory,Frédéric Berne Aux Bruyères Régnié,2022,red,Gamay Noir,Frédéric Berne,France,,,750ml,1,27.36,27.36,0.00,0.00,2023-2028,
-Inventory,Frédéric Berne Granit Rose Beaujolais Lantignié,2023,red,Gamay,Frédéric Berne,France,,,750ml,1,24.75,24.75,0.00,0.00,2024-2028,
+Inventory,Frédéric Berne Aux Bruyères Régnié,2022,red,Gamay Noir,Frédéric Berne,France,Beaujolais,Régnié,750ml,1,27.36,27.36,0.00,0.00,2023-2028,
+Inventory,Frédéric Berne Granit Rose Beaujolais Lantignié,2023,red,Gamay,Frédéric Berne,France,Beaujolais,Lantignié,750ml,1,24.75,24.75,0.00,0.00,2024-2028,
 Inventory,G.D. Vajra Claré J.C. Langhe Nebbiolo,2025,red,Nebbiolo,G.D. Vajra,Italy,Piedmont,Langhe,750ml,3,,,,,2027-2034,
 Inventory,G.D. Vajra Langhe Rosso,2024,red,Nebbiolo,G.D. Vajra,Italy,Piedmont,Langhe,750ml,1,15.47,15.47,,,2026-2031,
 Inventory,Giovanni Rosso Cerretta Barolo,2020,red,Nebbiolo,Giovanni Rosso,Italy,Piedmont,Barolo,750ml,1,83.89,83.89,59.99,59.99,2030-2042,
@@ -49,7 +49,7 @@ Inventory,Matt Morris Heritage Blend,2022,red,"Malbec, Charbono, Petite Sirah",M
 Inventory,Maxime Maignez Tempérance Condrieu,2023,white,Viognier,Domaine Maxime Maignez,France,Rhone,Condrieu,750ml,1,,,0.00,0.00,2025-2031,
 Inventory,Mosse Le Rouchefer Anjou Blanc,2022,white,Chenin Blanc,Domaine Mosse,France,Loire,Anjou,750ml,1,41.40,41.40,,,2024-2030,
 Inventory,Mount Eden Vineyards Domaine Eden Cabernet Sauvignon,2020,red,Cabernet Sauvignon,Mount Eden Vineyards,United States,California,Santa Cruz Mountains,750ml,1,61.10,61.10,,,2025-2034,
-Inventory,Notre Dame des Pallières Sablet L'Olivet,2023,red,"Grenache Noir, Syrah/Shiraz",Notre Dame des Pallières,France,,,750ml,1,18.32,18.32,,,2025-2028,
+Inventory,Notre Dame des Pallières Sablet L'Olivet,2023,red,"Grenache Noir, Syrah/Shiraz",Notre Dame des Pallières,France,Rhone,Sablet,750ml,1,18.32,18.32,,,2025-2028,
 Inventory,Peake Ranch John Sebastiano Vineyard Pinot Noir,2022,red,Pinot Noir,Peake Ranch,United States,California,Sta. Rita Hills,750ml,1,62.65,62.65,,,2024-2030,
 Inventory,Prieuré Saint-Côme Chablis Premier Cru,2025,white,Chardonnay,Prieuré Saint-Côme,France,Burgundy,Chablis,750ml,1,,,,,2027-2037,
 Inventory,Quinta de La Rosa Vale do Inferno,2021,red,Souzao,Quinta de La Rosa,Portugal,Douro,,750ml,1,64.75,64.75,,,2023-2031,Gift

@@ -248,14 +248,22 @@ h1 {
   font-weight: 500;
   font-size: 22px;
 }
-.cellar-section__title {
+.cellar-section__region {
   margin: 22px 0 6px;
-  font-size: 11px;
-  letter-spacing: 0.18em;
+  font-size: 12px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--gold);
 }
-.cellar-section:first-child .cellar-section__title { margin-top: 10px; }
+.cellar-section:first-child .cellar-section__region { margin-top: 10px; }
+.cellar-section__sub {
+  margin: 14px 0 4px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+}
 
 .cellar-item {
   border-top: 1px solid var(--line);

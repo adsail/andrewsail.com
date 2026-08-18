@@ -114,8 +114,12 @@
     return String(b.country || "").trim() || "Other";
   }
 
+  function regionOf(b) {
+    return String(b.region || "").trim() || "Other";
+  }
+
   function subregionOf(b) {
-    return String(b.subregion || "").trim() || String(b.region || "").trim() || "Other";
+    return String(b.subregion || "").trim();
   }
 
   function vintageYear(b) {
@@ -150,6 +154,7 @@
       b.grapes,
       b.country,
       b.region,
+      b.subregion,
       b.story,
       b.special,
       SPECIAL_LABELS[specialOf(b)] || "",
@@ -182,10 +187,7 @@
   }
 
   function placeLine(b) {
-    const sub = String(b.subregion || "").trim();
-    const region = String(b.region || "").trim();
-    if (sub && region && sub !== region) return region;
-    return sub || region || "";
+    return subregionOf(b) || regionOf(b);
   }
 
   function renderChips() {
@@ -337,8 +339,15 @@
       if (c) return c;
       const cc = countryOf(a).localeCompare(countryOf(b));
       if (cc) return cc;
-      const r = subregionOf(a).localeCompare(subregionOf(b));
+      const r = regionOf(a).localeCompare(regionOf(b));
       if (r) return r;
+      const sa = subregionOf(a);
+      const sb = subregionOf(b);
+      if (sa !== sb) {
+        if (!sa) return -1;
+        if (!sb) return 1;
+        return sa.localeCompare(sb);
+      }
       const y = vintageYear(a) - vintageYear(b);
       if (y) return y;
       return String(a.producer || "").localeCompare(String(b.producer || ""));
@@ -346,19 +355,27 @@
 
     let html = "";
     let lastCountry = null;
+    let lastRegion = null;
     let lastSub = null;
     sorted.forEach((b) => {
       const ctry = countryOf(b);
+      const region = regionOf(b);
       const sub = subregionOf(b);
       if (ctry !== lastCountry) {
         if (lastCountry !== null) html += "</section>";
         html += '<section class="cellar-section">';
         html += '<h2 class="cellar-section__country">' + esc(ctry) + "</h2>";
         lastCountry = ctry;
+        lastRegion = null;
         lastSub = null;
       }
-      if (sub !== lastSub) {
-        html += '<h3 class="cellar-section__title">' + esc(sub) + "</h3>";
+      if (region !== lastRegion) {
+        html += '<h3 class="cellar-section__region">' + esc(region) + "</h3>";
+        lastRegion = region;
+        lastSub = null;
+      }
+      if (sub && sub !== lastSub) {
+        html += '<h4 class="cellar-section__sub">' + esc(sub) + "</h4>";
         lastSub = sub;
       }
       html += rowHtml(b);
