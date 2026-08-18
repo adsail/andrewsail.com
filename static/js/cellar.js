@@ -18,6 +18,7 @@
   const searchEl = document.getElementById("cellar-filter");
   const countEl = document.getElementById("cellar-count");
   const toggleEl = document.getElementById("cellar-filters-toggle");
+  const sortEl = document.getElementById("cellar-sort");
 
   const TYPE_LABELS = {
     red: "Red",
@@ -86,6 +87,12 @@
   let grape = "all";
   let query = "";
   let filtersOpen = false;
+  let sortBy = "region";
+  try {
+    const saved = localStorage.getItem("andrewsail-cellar-sort");
+    if (saved === "region" || saved === "producer" || saved === "grape") sortBy = saved;
+  } catch (e) {}
+  if (sortEl) sortEl.value = sortBy;
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -110,6 +117,14 @@
 
   function countryOf(b) {
     return String(b.country || "").trim() || "Other";
+  }
+
+  function producerOf(b) {
+    return String(b.producer || "").trim() || "Other";
+  }
+
+  function grapeOf(b) {
+    return b.grapePrimary || String(b.grapes || "").trim() || "Other";
   }
 
   function regionOf(b) {
@@ -365,6 +380,20 @@
     }
 
     const sorted = vis.slice().sort((a, b) => {
+      if (sortBy === "producer") {
+        const p = producerOf(a).localeCompare(producerOf(b));
+        if (p) return p;
+        const y = vintageYear(a) - vintageYear(b);
+        if (y) return y;
+        return String(a.wine_name || "").localeCompare(String(b.wine_name || ""));
+      }
+      if (sortBy === "grape") {
+        const g = grapeOf(a).localeCompare(grapeOf(b));
+        if (g) return g;
+        const y = vintageYear(a) - vintageYear(b);
+        if (y) return y;
+        return producerOf(a).localeCompare(producerOf(b));
+      }
       const c = countryRank(countryOf(a)) - countryRank(countryOf(b));
       if (c) return c;
       const cc = countryOf(a).localeCompare(countryOf(b));
@@ -380,37 +409,52 @@
       }
       const y = vintageYear(a) - vintageYear(b);
       if (y) return y;
-      return String(a.producer || "").localeCompare(String(b.producer || ""));
+      return producerOf(a).localeCompare(producerOf(b));
     });
 
     let html = "";
-    let lastCountry = null;
-    let lastRegion = null;
-    let lastSub = null;
-    sorted.forEach((b) => {
-      const ctry = countryOf(b);
-      const region = regionOf(b);
-      const sub = subregionOf(b);
-      if (ctry !== lastCountry) {
-        if (lastCountry !== null) html += "</section>";
-        html += '<section class="cellar-section">';
-        html += '<h2 class="cellar-section__country">' + esc(ctry) + "</h2>";
-        lastCountry = ctry;
-        lastRegion = null;
-        lastSub = null;
-      }
-      if (region !== lastRegion) {
-        html += '<h3 class="cellar-section__region">' + esc(region) + "</h3>";
-        lastRegion = region;
-        lastSub = null;
-      }
-      if (sub && sub !== lastSub) {
-        html += '<h4 class="cellar-section__sub">' + esc(sub) + "</h4>";
-        lastSub = sub;
-      }
-      html += rowHtml(b);
-    });
-    if (lastCountry !== null) html += "</section>";
+    if (sortBy === "producer" || sortBy === "grape") {
+      let lastHead = null;
+      sorted.forEach((b) => {
+        const head = sortBy === "producer" ? producerOf(b) : grapeOf(b);
+        if (head !== lastHead) {
+          if (lastHead !== null) html += "</section>";
+          html += '<section class="cellar-section">';
+          html += '<h2 class="cellar-section__country">' + esc(head) + "</h2>";
+          lastHead = head;
+        }
+        html += rowHtml(b);
+      });
+      if (lastHead !== null) html += "</section>";
+    } else {
+      let lastCountry = null;
+      let lastRegion = null;
+      let lastSub = null;
+      sorted.forEach((b) => {
+        const ctry = countryOf(b);
+        const region = regionOf(b);
+        const sub = subregionOf(b);
+        if (ctry !== lastCountry) {
+          if (lastCountry !== null) html += "</section>";
+          html += '<section class="cellar-section">';
+          html += '<h2 class="cellar-section__country">' + esc(ctry) + "</h2>";
+          lastCountry = ctry;
+          lastRegion = null;
+          lastSub = null;
+        }
+        if (region !== lastRegion) {
+          html += '<h3 class="cellar-section__region">' + esc(region) + "</h3>";
+          lastRegion = region;
+          lastSub = null;
+        }
+        if (sub && sub !== lastSub) {
+          html += '<h4 class="cellar-section__sub">' + esc(sub) + "</h4>";
+          lastSub = sub;
+        }
+        html += rowHtml(b);
+      });
+      if (lastCountry !== null) html += "</section>";
+    }
     if (!filtered) {
       html += '<p class="cellar-note">Not a live dump. Swap the CSV when InVintory is back.</p>';
     }
@@ -457,6 +501,14 @@
     query = searchEl.value;
     render();
   });
+
+  if (sortEl) {
+    sortEl.addEventListener("change", () => {
+      sortBy = sortEl.value;
+      try { localStorage.setItem("andrewsail-cellar-sort", sortBy); } catch (e) {}
+      renderGrid();
+    });
+  }
 
   render();
 })();

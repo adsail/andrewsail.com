@@ -79,6 +79,41 @@ body {
 .cellar-heading h1 { margin: 0; flex: 0 0 auto; }
 .cellar-heading .map-search { flex: 1 1 220px; min-width: 180px; }
 .cellar-heading .cellar-count { margin: 0; }
+.cellar-sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.cellar-sort__label { white-space: nowrap; }
+.cellar-sort select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 8px 28px 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  min-height: 36px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 14px) 16px, calc(100% - 9px) 16px;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+.cellar-sort select:hover,
+.cellar-sort select:focus {
+  border-color: var(--ink);
+  outline: none;
+}
 .cellar-filters-toggle {
   appearance: none;
   -webkit-appearance: none;
