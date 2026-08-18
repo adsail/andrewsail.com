@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ .Title }} · Andrew Sail</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <script>
+      (function () {
+        var key = "andrewsail-map-theme";
+        var t;
+        try { t = localStorage.getItem(key); } catch (e) {}
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        }
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "css/cellar.css" | relURL }}" />
+    {{ template "_internal/google_analytics.html" . }}
+</head>
+<body class="cellar-page">
+    <div class="cellar-app">
+        <header class="cellar-top">
+            <div class="cellar-top__inner">
+                <div class="cellar-brand">
+                    <a class="map-home" href="{{ "/" | relURL }}">Andrew Sail</a>
+                    <button type="button" class="map-theme" id="map-theme" aria-label="Switch to light mode">
+                        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                            <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" d="M12 3v1.5M12 19.5V21M4.93 4.93l1.06 1.06M18.01 18.01l1.06 1.06M3 12h1.5M19.5 12H21M4.93 19.07l1.06-1.06M18.01 5.99l1.06-1.06"/>
+                        </svg>
+                        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" d="M15.5 4.2A8.2 8.2 0 1 0 19.8 15 6.4 6.4 0 0 1 15.5 4.2z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="cellar-heading">
+                    <h1>{{ .Title }}</h1>
+                    <div class="map-search">
+                        <input id="cellar-filter" type="search" placeholder="Search the cellar" autocomplete="off" />
+                    </div>
+                    <button type="button" class="cellar-filters-toggle" id="cellar-filters-toggle" aria-expanded="false" aria-controls="cellar-chips">Filters</button>
+                    <p class="cellar-count" id="cellar-count"></p>
+                </div>
+                <div class="map-chips" id="cellar-chips" hidden></div>
+            </div>
+        </header>
+        <main class="cellar-main">
+            <div class="cellar-grid" id="cellar-grid"></div>
+        </main>
+    </div>
+    <script>
+      window.CELLAR = {{ (index .Site.Data "cellar") | jsonify | safeJS }};
+    </script>
+    <script src="{{ "js/map-theme.js" | relURL }}"></script>
+    <script src="{{ "js/cellar.js" | relURL }}?v=geo2"></script>
+</body>
+</html>

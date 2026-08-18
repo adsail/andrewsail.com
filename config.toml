@@ -9,3 +9,10 @@ googleAnalytics = "UA-133951519-1"
 name = "s3-bucket"
 URL = "s3://www.andrewsail.com?region=us-east-1"
 cloudFrontDistributionID = "E636FZZQVOSRQ"
+
+# cellar.csv sits beside cellar.json for weekly swaps. Hugo cannot load both
+# as data key "cellar", so the CSV is kept on disk and excluded from data.
+[[module.mounts]]
+source = "data"
+target = "data"
+files = ["*.json"]
