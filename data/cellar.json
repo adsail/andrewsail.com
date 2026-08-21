@@ -18,8 +18,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2019,
@@ -40,8 +40,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": null,
@@ -62,8 +62,8 @@
     "market_usd": 47.47,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -75,7 +75,7 @@
     "region": "Alsace",
     "subregion": "Wiebelsberg",
     "size": "750ml",
-    "qty": 1,
+    "qty": 2,
     "drink_start": 2024,
     "drink_end": 2034,
     "ready_now": "yes",
@@ -84,8 +84,8 @@
     "market_usd": 16.94,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -106,8 +106,8 @@
     "market_usd": 77.59,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": null,
@@ -128,8 +128,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -150,8 +150,8 @@
     "market_usd": 52.41,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -172,30 +172,8 @@
     "market_usd": 68.32,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
-  },
-  {
-    "vintage": 2016,
-    "producer": "Château de Panigon",
-    "wine_name": "Médoc",
-    "wine_type": "red",
-    "grapes": "Merlot, Petit Verdot, Cabernet Sauvignon",
-    "country": "France",
-    "region": "Bordeaux",
-    "subregion": "Medoc",
-    "size": "750ml",
-    "qty": 1,
-    "drink_start": 2022,
-    "drink_end": 2034,
-    "ready_now": "yes",
-    "special": "",
-    "story": "",
-    "market_usd": 22.38,
-    "tags": "",
-    "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -216,8 +194,8 @@
     "market_usd": 46.77,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2019,
@@ -238,8 +216,8 @@
     "market_usd": 45.32,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2018,
@@ -260,8 +238,8 @@
     "market_usd": 28.71,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2010,
@@ -282,8 +260,8 @@
     "market_usd": 463.56,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2016,
@@ -304,8 +282,8 @@
     "market_usd": 144.95,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": null,
@@ -326,8 +304,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -348,8 +326,8 @@
     "market_usd": 31.77,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -370,8 +348,8 @@
     "market_usd": 40.6,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2016,
@@ -392,8 +370,8 @@
     "market_usd": 318.6,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -414,8 +392,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -436,8 +414,8 @@
     "market_usd": null,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -458,8 +436,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -480,8 +458,8 @@
     "market_usd": 49.2,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -502,30 +480,8 @@
     "market_usd": 28.33,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
-  },
-  {
-    "vintage": 2025,
-    "producer": "Domaine Gardiés",
-    "wine_name": "On S'en Fish Côtes Catalanes",
-    "wine_type": "red",
-    "grapes": "Cinsault, Carignan",
-    "country": "France",
-    "region": "Cotes Catalanes",
-    "subregion": "",
-    "size": "750ml",
-    "qty": 1,
-    "drink_start": 2027,
-    "drink_end": 2038,
-    "ready_now": "not_yet",
-    "special": "",
-    "story": "",
-    "market_usd": null,
-    "tags": "",
-    "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2012,
@@ -546,8 +502,8 @@
     "market_usd": 60.35,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -568,8 +524,8 @@
     "market_usd": 52.95,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -590,8 +546,30 @@
     "market_usd": 48.16,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": 2023,
+    "producer": "Emme Wines",
+    "wine_name": "Ricetti Vineyard You're Lucky You're So Cute Zinfandel Redwood Valley",
+    "wine_type": "red",
+    "grapes": "Zinfandel",
+    "country": "United States",
+    "region": "California",
+    "subregion": "Redwood Valley",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": 2025,
+    "drink_end": 2031,
+    "ready_now": "yes",
+    "special": "",
+    "story": "",
+    "market_usd": null,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -600,8 +578,8 @@
     "wine_type": "red",
     "grapes": "Gamay Noir",
     "country": "France",
-    "region": "Beaujolais",
-    "subregion": "Régnié",
+    "region": "",
+    "subregion": "",
     "size": "750ml",
     "qty": 1,
     "drink_start": 2023,
@@ -612,8 +590,30 @@
     "market_usd": 27.36,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": 2023,
+    "producer": "Frédéric Berne",
+    "wine_name": "Granit Rose Beaujolais Lantignié",
+    "wine_type": "red",
+    "grapes": "Gamay",
+    "country": "France",
+    "region": "",
+    "subregion": "",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": 2024,
+    "drink_end": 2028,
+    "ready_now": "yes",
+    "special": "",
+    "story": "",
+    "market_usd": 24.75,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2025,
@@ -634,8 +634,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2024,
@@ -656,8 +656,8 @@
     "market_usd": 15.47,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -678,8 +678,8 @@
     "market_usd": 83.89,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -700,8 +700,30 @@
     "market_usd": 124.85,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": 2024,
+    "producer": "Guidobono",
+    "wine_name": "Langhe Nebbiolo",
+    "wine_type": "red",
+    "grapes": "Nebbiolo",
+    "country": "Italy",
+    "region": "Piedmont",
+    "subregion": "Langhe",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": 2027,
+    "drink_end": 2034,
+    "ready_now": "not_yet",
+    "special": "",
+    "story": "",
+    "market_usd": null,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2019,
@@ -722,8 +744,8 @@
     "market_usd": 77.96,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -744,8 +766,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2024,
@@ -766,8 +788,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -788,8 +810,8 @@
     "market_usd": 40.59,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -810,8 +832,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -832,8 +854,8 @@
     "market_usd": 13.99,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -854,8 +876,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -876,8 +898,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -898,8 +920,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -920,30 +942,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
-  },
-  {
-    "vintage": 2020,
-    "producer": "Le Strette",
-    "wine_name": "Barolo",
-    "wine_type": "red",
-    "grapes": "Nebbiolo",
-    "country": "Italy",
-    "region": "Piedmont",
-    "subregion": "Barolo",
-    "size": "750ml",
-    "qty": 1,
-    "drink_start": 2027,
-    "drink_end": 2045,
-    "ready_now": "not_yet",
-    "special": "",
-    "story": "",
-    "market_usd": null,
-    "tags": "",
-    "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2019,
@@ -964,8 +964,8 @@
     "market_usd": 75.23,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2019,
@@ -986,8 +986,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1008,8 +1008,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -1030,8 +1030,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1052,8 +1052,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -1074,8 +1074,8 @@
     "market_usd": 41.4,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -1096,8 +1096,8 @@
     "market_usd": 61.1,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1106,8 +1106,8 @@
     "wine_type": "red",
     "grapes": "Grenache Noir, Syrah/Shiraz",
     "country": "France",
-    "region": "Rhone",
-    "subregion": "Sablet",
+    "region": "",
+    "subregion": "",
     "size": "750ml",
     "qty": 1,
     "drink_start": 2025,
@@ -1118,8 +1118,8 @@
     "market_usd": 18.32,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -1140,8 +1140,8 @@
     "market_usd": 62.65,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2025,
@@ -1162,8 +1162,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -1184,8 +1184,8 @@
     "market_usd": 64.75,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2024,
@@ -1206,8 +1206,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1228,8 +1228,8 @@
     "market_usd": 106.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1250,8 +1250,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1272,8 +1272,8 @@
     "market_usd": 129.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1294,8 +1294,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1316,8 +1316,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1338,8 +1338,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1360,8 +1360,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2023,
@@ -1382,8 +1382,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -1404,8 +1404,8 @@
     "market_usd": 42.58,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -1417,7 +1417,7 @@
     "region": "California",
     "subregion": "North Coast",
     "size": "750ml",
-    "qty": 1,
+    "qty": 2,
     "drink_start": 2023,
     "drink_end": 2027,
     "ready_now": "yes",
@@ -1426,8 +1426,8 @@
     "market_usd": 41.14,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -1448,8 +1448,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2018,
@@ -1470,8 +1470,8 @@
     "market_usd": 136.89,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2000,
@@ -1492,8 +1492,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2020,
@@ -1514,8 +1514,8 @@
     "market_usd": 38.93,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2019,
@@ -1536,8 +1536,30 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": 2024,
+    "producer": "Stamnaki",
+    "wine_name": "Assyrtiko",
+    "wine_type": "white",
+    "grapes": "Assyrtiko",
+    "country": "Greece",
+    "region": "",
+    "subregion": "",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": 2025,
+    "drink_end": 2031,
+    "ready_now": "yes",
+    "special": "",
+    "story": "",
+    "market_usd": null,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2021,
@@ -1558,8 +1580,30 @@
     "market_usd": 99.52,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": 2023,
+    "producer": "Tenute Baldo",
+    "wine_name": "Le Ripaie Sangiovese",
+    "wine_type": "red",
+    "grapes": "Sangiovese",
+    "country": "Italy",
+    "region": "Umbria",
+    "subregion": "Montefalco Sagrantino",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": 2025,
+    "drink_end": 2029,
+    "ready_now": "yes",
+    "special": "",
+    "story": "",
+    "market_usd": 14.0,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2022,
@@ -1580,8 +1624,8 @@
     "market_usd": 29.09,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": null,
@@ -1602,8 +1646,8 @@
     "market_usd": 66.31,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   },
   {
     "vintage": 2018,
@@ -1624,7 +1668,51 @@
     "market_usd": 73.27,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-08-18",
-    "source": "invintory_export_2026-08-18"
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": null,
+    "producer": "Ridge Vineyards",
+    "wine_name": "Ridge Monte Bello",
+    "wine_type": "red",
+    "grapes": "Cabernet Sauvignon, Merlot, Petit Verdot, Cabernet Franc",
+    "country": "United States",
+    "region": "California",
+    "subregion": "Santa Cruz Mountains",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": null,
+    "drink_end": null,
+    "ready_now": "not_yet",
+    "special": "vault",
+    "story": "Don't casual-open.",
+    "market_usd": null,
+    "tags": "Vault",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
+  },
+  {
+    "vintage": null,
+    "producer": "Ridge Vineyards",
+    "wine_name": "Ridge Evangelho Vineyard Zinfandel",
+    "wine_type": "red",
+    "grapes": "Zinfandel, Mataro, Petite Sirah, Carignane",
+    "country": "United States",
+    "region": "California",
+    "subregion": "Contra Costa County",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": null,
+    "drink_end": null,
+    "ready_now": "not_yet",
+    "special": "",
+    "story": "",
+    "market_usd": null,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-08-21",
+    "source": "andrew_csv_2026-08-21"
   }
 ]
