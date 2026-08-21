@@ -1,3 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Wine glass">
-  <path fill="#ffffff" d="M186 40h140c8 0 14 6 14 14 0 92-52 156-74 184v148h52c22 0 40 14 40 32 0 22-24 34-70 34H224c-46 0-70-12-70-34 0-18 18-32 40-32h52V238C224 210 172 146 172 54c0-8 6-14 14-14z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Glass of Barolo">
+  <path fill="#ffffff" d="M38 9c-10 6-20 18-20 30 0 12 10 19 29 21.5V78H32c-5 0-8 3-8 7s5 9 26 9 26-5 26-9-3-7-8-7H53V60.5C72 58 82 51 82 39 82 27 72 15 62 9c-4-2-20-2-24 0z"/>
+  <path fill="#8f2432" d="M21.5 32c1 14 12 22 28.5 23.5C66.5 54 77.5 46 78.5 32 70 36.5 60 38.5 50 38.5S30 36.5 21.5 32z"/>
 </svg>
