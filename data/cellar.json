@@ -286,7 +286,7 @@
     "source": "andrew_csv_2026-08-21"
   },
   {
-    "vintage": null,
+    "vintage": 2023,
     "producer": "Clos Cibonne",
     "wine_name": "Tibouren Côtes de Provence Cru Classé",
     "wine_type": "rose",
@@ -926,18 +926,18 @@
   {
     "vintage": 2023,
     "producer": "La Bastide Blanche",
-    "wine_name": "Bandol Rouge",
-    "wine_type": "red",
+    "wine_name": "Bandol Rosé",
+    "wine_type": "rose",
     "grapes": "Cinsault, Carignan, Grenache, Syrah/Shiraz, Mourvèdre",
     "country": "France",
     "region": "Provence",
     "subregion": "Bandol",
     "size": "750ml",
     "qty": 1,
-    "drink_start": 2027,
-    "drink_end": 2043,
-    "ready_now": "not_yet",
-    "special": "hold",
+    "drink_start": 2024,
+    "drink_end": 2027,
+    "ready_now": "yes",
+    "special": "",
     "story": "",
     "market_usd": null,
     "tags": "",
@@ -1672,7 +1672,7 @@
     "source": "andrew_csv_2026-08-21"
   },
   {
-    "vintage": null,
+    "vintage": 2023,
     "producer": "Ridge Vineyards",
     "wine_name": "Ridge Monte Bello",
     "wine_type": "red",
@@ -1694,7 +1694,7 @@
     "source": "andrew_csv_2026-08-21"
   },
   {
-    "vintage": null,
+    "vintage": 2023,
     "producer": "Ridge Vineyards",
     "wine_name": "Ridge Evangelho Vineyard Zinfandel",
     "wine_type": "red",
