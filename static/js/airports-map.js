@@ -11,11 +11,50 @@
   const NEW_ENGLAND = new Set(["MA", "ME", "NH", "VT", "RI", "CT"]);
   const WEST = new Set(["NV", "CA", "OR", "WA", "AZ", "UT", "ID", "MT", "WY", "CO", "NM", "AK", "HI"]);
 
-  let region = "All";
+  let region = "New England";
   let query = "";
   let activeId = null;
   const markers = {};
   let popup = null;
+  let sectionalOn = true;
+
+  // FAA New York + Montreal + Halifax mosaic, Jul 09 2026 cycle, clipped to NE.
+  const SECTIONAL = {
+    url: "/flying/airports/ne-sectional.webp",
+    // NW, NE, SE, SW in WGS84 — matches gdalwarp -te -75.2 40.3 -66.5 47.6
+    coordinates: [
+      [-75.2, 47.6],
+      [-66.4998167, 47.6],
+      [-66.4998167, 40.2998722],
+      [-75.2, 40.2998722],
+    ],
+  };
+
+  function ensureSectionalLayer() {
+    try {
+      if (!map.getSource("ne-sectional")) {
+        map.addSource("ne-sectional", {
+          type: "image",
+          url: SECTIONAL.url,
+          coordinates: SECTIONAL.coordinates,
+        });
+      }
+      if (!map.getLayer("ne-sectional")) {
+        map.addLayer({
+          id: "ne-sectional",
+          type: "raster",
+          source: "ne-sectional",
+          paint: {
+            "raster-opacity": 0.92,
+            "raster-fade-duration": 0,
+          },
+        });
+      }
+      map.setLayoutProperty("ne-sectional", "visibility", sectionalOn ? "visible" : "none");
+    } catch (err) {
+      console.error("sectional layer failed", err);
+    }
+  }
 
   function themeName() {
     if (window.AndrewSailMapTheme) return AndrewSailMapTheme.current();
@@ -127,6 +166,23 @@
       });
       chipsEl.appendChild(btn);
     });
+    const sec = document.createElement("button");
+    sec.type = "button";
+    sec.textContent = "Sectional";
+    sec.classList.add("chip-sectional");
+    if (sectionalOn) sec.classList.add("is-on");
+    sec.title = "FAA VFR sectional (NY / Montreal / Halifax)";
+    sec.addEventListener("click", () => {
+      sectionalOn = !sectionalOn;
+      ensureSectionalLayer();
+      renderChips();
+      if (sectionalOn && region !== "New England") {
+        region = "New England";
+        render();
+        fitVisible();
+      }
+    });
+    chipsEl.appendChild(sec);
   }
 
   function popupHtml(a) {
@@ -232,10 +288,12 @@
   map.on("load", function () {
     render();
     fitVisible({ instant: true });
+    ensureSectionalLayer();
     map.resize();
     themeStyleReady = true;
   });
   map.on("style.load", function () {
+    ensureSectionalLayer();
     if (!themeStyleReady) {
       themeStyleReady = true;
       return;

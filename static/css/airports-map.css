@@ -168,6 +168,17 @@ h1 {
   color: #1a1408;
 }
 
+.map-chips button.chip-sectional.is-on {
+  background: #2f5d3a;
+  border-color: #2f5d3a;
+  color: #f4efe6;
+}
+[data-theme="light"] .map-chips button.chip-sectional.is-on {
+  background: #3d6b4a;
+  border-color: #3d6b4a;
+  color: #f4efe6;
+}
+
 .map-list {
   overflow: auto;
   padding: 8px 12px 32px;
