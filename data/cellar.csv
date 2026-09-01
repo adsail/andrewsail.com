@@ -12,7 +12,7 @@ Inventory,Chateau Faugères Saint-Émilion Grand Cru Classé,2019,red,"Merlot, C
 Inventory,Château Laville Sauternes,2018,dessert,Sauvignon Blanc,Château Laville,France,Bordeaux,Sauternes,375ml,1,28.71,28.71,,,2023-2038,
 Inventory,Château Pavie Saint-Émilion Grand Cru,2010,red,"Merlot, Cabernet Sauvignon, Cabernet Franc, Bordeaux Red Blends",Chateau Pavie,France,Bordeaux,Saint-Emilion Grand Cru,750ml,1,463.56,463.56,,,2028-2085,Gift
 Inventory,Château Pontet-Canet Pauillac Grand Cru Classé,2016,red,"Merlot, Petit Verdot, Cabernet Sauvignon, Cabernet Franc",Château Pontet-Canet,France,Bordeaux,Pauillac,750ml,1,144.95,144.95,165.00,165.00,2026-2045,
-Inventory,Clos Cibonne Tibouren Côtes de Provence Cru Classé,N.V.,rose,"Tibouren, Grenache",Clos Cibonne,France,Provence,,750ml,1,,,,,2026-2029,
+Inventory,Clos Cibonne Tibouren Côtes de Provence Cru Classé,2023,rose,"Tibouren, Grenache",Clos Cibonne,France,Provence,,750ml,1,,,,,2026-2029,
 Inventory,Clos de la Roilette Cuvée Tardive Fleurie,2023,red,Gamay,Clos de la Roilette,France,Beaujolais,Fleurie,750ml,2,31.77,63.54,0.00,0.00,2025-2032,
 Inventory,Clos de la Roilette La Griffe du Marquis Fleurie,2021,red,Gamay,Clos de la Roilette,France,Beaujolais,Fleurie,750ml,3,40.60,121.80,0.00,0.00,2023-2029,
 Inventory,Damilano 1752 Cannubi Barolo Riserva,2016,red,Nebbiolo,Damilano,Italy,Piedmont,Barolo,750ml,1,318.60,318.60,,,2025-2050,Gift
@@ -41,7 +41,7 @@ Inventory,Kirkland Signature Gigondas,2022,red,Syrah/Shiraz,Kirkland,France,Rhon
 Inventory,Kirkland Signature Saint-Emilion Grand Cru,2023,red,"Merlot, Cabernet Sauvignon, Cabernet Franc",Kirkland,France,Bordeaux,Saint-Emilion Grand Cru,750ml,1,,,,,2026-2038,
 Inventory,Kirkland Signature Suscol Vineyard Napa Valley Cabernet Sauvignon,2021,red,Cabernet Sauvignon,Kirkland,United States,California,Napa Valley,750ml,1,,,18.00,18.00,2024-2029,
 Inventory,Kirkland Vacqueyras,2022,red,"Grenache Noir, Grenache, Syrah/Shiraz, Mourvèdre",Kirkland,France,Rhone,Vacqueyras,750ml,1,,,10.00,10.00,2024-2030,
-Inventory,La Bastide Blanche Bandol Rouge,2023,red,"Cinsault, Carignan, Grenache, Syrah/Shiraz, Mourvèdre",La Bastide Blanche,France,Provence,Bandol,750ml,1,,,24.00,24.00,2027-2043,
+Inventory,La Bastide Blanche Bandol Rosé,2023,rose,"Cinsault, Carignan, Grenache, Syrah/Shiraz, Mourvèdre",La Bastide Blanche,France,Provence,Bandol,750ml,1,,,24.00,24.00,2024-2027,
 Inventory,Le Strette Corini - Pallaretta Barolo,2019,red,Nebbiolo,Le Strette,Italy,Piedmont,Barolo,750ml,1,75.23,75.23,,,2027-2040,
 Inventory,Lightwell Survey The Weird Ones are Wolves Red,2019,red,"Riesling, Petit Manseng, Cabernet Franc, Syrah/Shiraz",Early Mountain Vineyards,United States,,,750ml,1,,,,,2022-2029,
 Inventory,Lukas van Loggerenberg High Hopes Swartland Red Blend,2023,red,"Cinsault, Grenache Noir, Syrah/Shiraz",Lukas Van Loggerenberg Wines,South Africa,Coastal Region,,750ml,1,,,,,2025-2030,
@@ -75,5 +75,5 @@ Inventory,Tenute Baldo Le Ripaie Sangiovese,2023,red,Sangiovese,Tenute Baldo,Ita
 Inventory,The Prisoner Saldo Zinfandel,2022,red,"Zinfandel, Petite Sirah, Syrah/Shiraz",The Prisoner Wine Company,United States,California,,750ml,1,29.09,29.09,0.00,0.00,2024-2030,Gift
 Inventory,Veuve Clicquot Champagne Brut,N.V.,sparkling,"Chardonnay, Pinot Noir, Pinot Meunier",Veuve Clicquot,France,Champagne,,750ml,2,66.31,132.62,,,2026-2029,Gift
 Inventory,Wiston Estate Blanc de Blancs Sparkling,2018,sparkling,Chardonnay,Wiston Estate Winery,United Kingdom,England,,750ml,1,73.27,73.27,,,2023-2030,
-Inventory,Ridge Monte Bello,,red,"Cabernet Sauvignon, Merlot, Petit Verdot, Cabernet Franc",Ridge Vineyards,United States,California,Santa Cruz Mountains,750ml,1,,,,,,Vault
-Inventory,Ridge Evangelho Vineyard Zinfandel,,red,"Zinfandel, Mataro, Petite Sirah, Carignane",Ridge Vineyards,United States,California,Contra Costa County,750ml,1,,,,,,
+Inventory,Ridge Monte Bello,2023,red,"Cabernet Sauvignon, Merlot, Petit Verdot, Cabernet Franc",Ridge Vineyards,United States,California,Santa Cruz Mountains,750ml,1,,,,,,Vault
+Inventory,Ridge Evangelho Vineyard Zinfandel,2023,red,"Zinfandel, Mataro, Petite Sirah, Carignane",Ridge Vineyards,United States,California,Contra Costa County,750ml,1,,,,,,

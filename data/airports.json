@@ -80,6 +80,17 @@
       "home": false
     },
     {
+      "ident": "KHYA",
+      "name": "Cape Cod Gateway Airport",
+      "city": "Hyannis",
+      "state": "MA",
+      "lat": 41.6693,
+      "lng": -70.280403,
+      "landings": 1,
+      "source": "logbook",
+      "home": false
+    },
+    {
       "ident": "KLDJ",
       "name": "Linden Airport",
       "city": "Linden",
