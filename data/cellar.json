@@ -2,7 +2,7 @@
   {
     "vintage": 2023,
     "producer": "Andrew Will",
-    "wine_name": "Andrew Will Cuvée Lucia Sheridan Vineyard Sauvignon Blanc ",
+    "wine_name": "Andrew Will Cuv\u00e9e Lucia Sheridan Vineyard Sauvignon Blanc ",
     "wine_type": "white",
     "grapes": "Sauvignon Blanc",
     "country": "United States",
@@ -18,8 +18,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2019,
@@ -40,8 +40,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": null,
@@ -62,8 +62,8 @@
     "market_usd": 47.01,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -84,8 +84,8 @@
     "market_usd": 17.05,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -106,13 +106,13 @@
     "market_usd": 77.59,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": null,
     "producer": "Bugno Martino",
-    "wine_name": "Bugno Martino Ciamballà Lambrusco Mantova",
+    "wine_name": "Bugno Martino Ciamball\u00e0 Lambrusco Mantova",
     "wine_type": "sparkling",
     "grapes": "Lambrusco",
     "country": "Italy",
@@ -128,8 +128,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -150,8 +150,8 @@
     "market_usd": 55.03,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -172,13 +172,13 @@
     "market_usd": 68.22,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2019,
-    "producer": "Château Faugères",
-    "wine_name": "Chateau Faugères Saint-Émilion Grand Cru Classé",
+    "producer": "Ch\u00e2teau Faug\u00e8res",
+    "wine_name": "Chateau Faug\u00e8res Saint-\u00c9milion Grand Cru Class\u00e9",
     "wine_type": "red",
     "grapes": "Merlot, Cabernet Sauvignon, Cabernet Franc",
     "country": "France",
@@ -191,16 +191,16 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 45.33,
+    "market_usd": 45.4,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2016,
-    "producer": "Château de Panigon",
-    "wine_name": "Château de Panigon Médoc",
+    "producer": "Ch\u00e2teau de Panigon",
+    "wine_name": "Ch\u00e2teau de Panigon M\u00e9doc",
     "wine_type": "red",
     "grapes": "Merlot, Petit Verdot, Cabernet Sauvignon",
     "country": "France",
@@ -213,16 +213,16 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 22.65,
+    "market_usd": 22.39,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
-    "producer": "Château Durfort-Vivens",
-    "wine_name": "Château Durfort-Vivens Le Hameau Margaux",
+    "producer": "Ch\u00e2teau Durfort-Vivens",
+    "wine_name": "Ch\u00e2teau Durfort-Vivens Le Hameau Margaux",
     "wine_type": "red",
     "grapes": "Merlot, Cabernet Sauvignon, Cabernet Franc, Red Blend",
     "country": "France",
@@ -238,13 +238,13 @@
     "market_usd": 47.25,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2018,
-    "producer": "Château Laville",
-    "wine_name": "Château Laville Sauternes",
+    "producer": "Ch\u00e2teau Laville",
+    "wine_name": "Ch\u00e2teau Laville Sauternes",
     "wine_type": "dessert",
     "grapes": "Sauvignon Blanc",
     "country": "France",
@@ -260,13 +260,13 @@
     "market_usd": 28.71,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2010,
     "producer": "Chateau Pavie",
-    "wine_name": "Château Pavie Saint-Émilion Grand Cru",
+    "wine_name": "Ch\u00e2teau Pavie Saint-\u00c9milion Grand Cru",
     "wine_type": "red",
     "grapes": "Merlot, Cabernet Sauvignon, Cabernet Franc, Bordeaux Red Blends",
     "country": "France",
@@ -279,16 +279,16 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 462.86,
+    "market_usd": 455.62,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2016,
-    "producer": "Château Pontet-Canet",
-    "wine_name": "Château Pontet-Canet Pauillac Grand Cru Classé",
+    "producer": "Ch\u00e2teau Pontet-Canet",
+    "wine_name": "Ch\u00e2teau Pontet-Canet Pauillac Grand Cru Class\u00e9",
     "wine_type": "red",
     "grapes": "Merlot, Petit Verdot, Cabernet Sauvignon, Cabernet Franc",
     "country": "France",
@@ -301,16 +301,16 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 144.43,
+    "market_usd": 142.79,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
     "producer": "Clos Cibonne",
-    "wine_name": "Clos Cibonne Tibouren Côtes de Provence Cru Classé",
+    "wine_name": "Clos Cibonne Tibouren C\u00f4tes de Provence Cru Class\u00e9",
     "wine_type": "rose",
     "grapes": "Tibouren, Grenache",
     "country": "France",
@@ -326,13 +326,13 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
     "producer": "Clos de la Roilette",
-    "wine_name": "Clos de la Roilette Cuvée Tardive Fleurie",
+    "wine_name": "Clos de la Roilette Cuv\u00e9e Tardive Fleurie",
     "wine_type": "red",
     "grapes": "Gamay",
     "country": "France",
@@ -348,8 +348,8 @@
     "market_usd": 31.81,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -367,11 +367,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 40.99,
+    "market_usd": 40.12,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2016,
@@ -389,11 +389,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 318.35,
+    "market_usd": 320.04,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -414,8 +414,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -436,8 +436,8 @@
     "market_usd": null,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -458,15 +458,15 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
     "producer": "Domaine A. et P. de Villaine",
     "wine_name": "Domaine A. et P. de Villaine Bouzeron",
     "wine_type": "white",
-    "grapes": "Aligoté",
+    "grapes": "Aligot\u00e9",
     "country": "France",
     "region": "Burgundy",
     "subregion": "",
@@ -480,13 +480,13 @@
     "market_usd": 49.16,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
     "producer": "Domaine Coudert",
-    "wine_name": "Domaine Coudert Moulin-à-Vent",
+    "wine_name": "Domaine Coudert Moulin-\u00e0-Vent",
     "wine_type": "red",
     "grapes": "Gamay",
     "country": "France",
@@ -502,13 +502,13 @@
     "market_usd": 28.45,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2025,
     "producer": "Domaine Gardies",
-    "wine_name": "Domaine Gardiés On S'en Fish Côtes Catalanes",
+    "wine_name": "Domaine Gardi\u00e9s On S'en Fish C\u00f4tes Catalanes",
     "wine_type": "red",
     "grapes": "Cinsault, Carignan",
     "country": "France",
@@ -524,13 +524,13 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2012,
     "producer": "Domaine Tollot-Beaut",
-    "wine_name": "Domaine Tollot-Beaut Chorey-Lès-Beaune",
+    "wine_name": "Domaine Tollot-Beaut Chorey-L\u00e8s-Beaune",
     "wine_type": "red",
     "grapes": "Pinot Noir",
     "country": "France",
@@ -546,8 +546,8 @@
     "market_usd": 60.63,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -568,8 +568,8 @@
     "market_usd": 53.43,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -590,8 +590,8 @@
     "market_usd": 48.16,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -612,13 +612,13 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
-    "producer": "Frédéric Berne",
-    "wine_name": "Frédéric Berne Aux Bruyères Régnié",
+    "producer": "Fr\u00e9d\u00e9ric Berne",
+    "wine_name": "Fr\u00e9d\u00e9ric Berne Aux Bruy\u00e8res R\u00e9gni\u00e9",
     "wine_type": "red",
     "grapes": "Gamay Noir",
     "country": "France",
@@ -634,13 +634,13 @@
     "market_usd": 27.04,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2025,
     "producer": "G.D. Vajra",
-    "wine_name": "G.D. Vajra Claré J.C. Langhe Nebbiolo",
+    "wine_name": "G.D. Vajra Clar\u00e9 J.C. Langhe Nebbiolo",
     "wine_type": "red",
     "grapes": "Nebbiolo",
     "country": "Italy",
@@ -656,8 +656,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2024,
@@ -678,8 +678,8 @@
     "market_usd": 15.47,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -700,8 +700,8 @@
     "market_usd": 86.32,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -722,8 +722,8 @@
     "market_usd": 124.89,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2019,
@@ -741,11 +741,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 77.98,
+    "market_usd": 78.14,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -766,8 +766,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2024,
@@ -788,15 +788,15 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
     "producer": "Jolie Laide",
-    "wine_name": "Jolie Laide Las Cimas Aligoté",
+    "wine_name": "Jolie Laide Las Cimas Aligot\u00e9",
     "wine_type": "white",
-    "grapes": "Aligoté",
+    "grapes": "Aligot\u00e9",
     "country": "United States",
     "region": "California",
     "subregion": "",
@@ -810,8 +810,8 @@
     "market_usd": 40.59,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -832,8 +832,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -854,8 +854,8 @@
     "market_usd": 13.99,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -876,8 +876,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -898,15 +898,15 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
     "producer": "Kirkland",
     "wine_name": "Kirkland Vacqueyras",
     "wine_type": "red",
-    "grapes": "Grenache Noir, Grenache, Syrah/Shiraz, Mourvèdre",
+    "grapes": "Grenache Noir, Grenache, Syrah/Shiraz, Mourv\u00e8dre",
     "country": "France",
     "region": "Rhone",
     "subregion": "",
@@ -920,30 +920,30 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
     "producer": "La Bastide Blanche",
-    "wine_name": "La Bastide Blanche Bandol Rosé",
+    "wine_name": "La Bastide Blanche Bandol Ros\u00e9",
     "wine_type": "rose",
-    "grapes": "Cinsault, Carignan, Grenache, Syrah/Shiraz, Mourvèdre",
+    "grapes": "Grenache, Mourv\u00e8dre",
     "country": "France",
     "region": "Provence",
     "subregion": "",
     "size": "750ml",
     "qty": 1,
-    "drink_start": 2027,
-    "drink_end": 2043,
+    "drink_start": 2024,
+    "drink_end": 2026,
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": null,
+    "market_usd": 25.83,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -964,8 +964,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2019,
@@ -986,8 +986,8 @@
     "market_usd": 75.23,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2019,
@@ -1008,8 +1008,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1030,8 +1030,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -1052,13 +1052,13 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
     "producer": "Domaine Maxime Maignez",
-    "wine_name": "Maxime Maignez Tempérance Condrieu",
+    "wine_name": "Maxime Maignez Temp\u00e9rance Condrieu",
     "wine_type": "white",
     "grapes": "Viognier",
     "country": "France",
@@ -1074,8 +1074,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -1096,8 +1096,8 @@
     "market_usd": 41.43,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -1118,13 +1118,13 @@
     "market_usd": 61.69,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
-    "producer": "Notre Dame des Pallières",
-    "wine_name": "Notre Dame des Pallières Sablet L'Olivet",
+    "producer": "Notre Dame des Palli\u00e8res",
+    "wine_name": "Notre Dame des Palli\u00e8res Sablet L'Olivet",
     "wine_type": "red",
     "grapes": "Grenache Noir, Syrah/Shiraz",
     "country": "France",
@@ -1140,8 +1140,8 @@
     "market_usd": 18.32,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -1162,13 +1162,13 @@
     "market_usd": 62.65,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2025,
-    "producer": "Prieuré Saint-Côme",
-    "wine_name": "Prieuré Saint-Côme Chablis Premier Cru",
+    "producer": "Prieur\u00e9 Saint-C\u00f4me",
+    "wine_name": "Prieur\u00e9 Saint-C\u00f4me Chablis Premier Cru",
     "wine_type": "white",
     "grapes": "Chardonnay",
     "country": "France",
@@ -1184,8 +1184,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -1206,8 +1206,8 @@
     "market_usd": 65.01,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2024,
@@ -1228,8 +1228,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1250,12 +1250,12 @@
     "market_usd": 106.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
-    "producer": "Ridge Vineyard",
+    "producer": "Ridge Vineyards",
     "wine_name": "Ridge Evangelho Red Blend",
     "wine_type": "red",
     "grapes": "Carignan, Mataro, Zinfandel, Carignane",
@@ -1272,8 +1272,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1294,8 +1294,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1316,8 +1316,8 @@
     "market_usd": 129.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2024,
@@ -1338,8 +1338,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1360,8 +1360,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1382,8 +1382,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1401,11 +1401,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 277.12,
+    "market_usd": 266.82,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1426,8 +1426,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1448,8 +1448,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2023,
@@ -1470,8 +1470,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2021,
@@ -1492,8 +1492,8 @@
     "market_usd": 42.58,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -1514,8 +1514,8 @@
     "market_usd": 41.14,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -1536,8 +1536,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2018,
@@ -1555,11 +1555,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 137.17,
+    "market_usd": 137.8,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2000,
@@ -1580,8 +1580,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2019,
@@ -1602,8 +1602,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2020,
@@ -1621,33 +1621,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 38.93,
+    "market_usd": 39.01,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
-  },
-  {
-    "vintage": 2021,
-    "producer": "Domaine Sylvain Pataille",
-    "wine_name": "Sylvain Pataille Clos du Roy Marsannay",
-    "wine_type": "red",
-    "grapes": "Pinot Noir",
-    "country": "France",
-    "region": "Burgundy",
-    "subregion": "",
-    "size": "750ml",
-    "qty": 1,
-    "drink_start": 2025,
-    "drink_end": 2032,
-    "ready_now": "",
-    "special": "",
-    "story": "",
-    "market_usd": 99.66,
-    "tags": "",
-    "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2022,
@@ -1665,11 +1643,11 @@
     "ready_now": "",
     "special": "",
     "story": "",
-    "market_usd": 29.06,
+    "market_usd": 29.1,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": null,
@@ -1690,8 +1668,8 @@
     "market_usd": 66.21,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   },
   {
     "vintage": 2018,
@@ -1712,7 +1690,7 @@
     "market_usd": 73.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-07",
-    "source": "invintory_csv_2026-09-07"
+    "as_of": "2026-09-21",
+    "source": "invintory_csv_2026-09-21"
   }
 ]
