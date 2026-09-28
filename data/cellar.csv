@@ -13,6 +13,7 @@ Inventory,Château Durfort-Vivens Le Hameau Margaux,2020,red,"Merlot, Cabernet S
 Inventory,Château Laville Sauternes,2018,dessert,Sauvignon Blanc,Château Laville,France,Bordeaux,,375ml,1,28.71,28.71,,,2023–2038,
 Inventory,Château Pavie Saint-Émilion Grand Cru,2010,red,"Merlot, Cabernet Sauvignon, Cabernet Franc, Bordeaux Red Blends",Chateau Pavie,France,Bordeaux,,750ml,1,455.62,455.62,,,2028–2085,Gift
 Inventory,Château Pontet-Canet Pauillac Grand Cru Classé,2016,red,"Merlot, Petit Verdot, Cabernet Sauvignon, Cabernet Franc",Château Pontet-Canet,France,Bordeaux,,750ml,1,142.79,142.79,165.0,165.0,2026–2045,
+Inventory,Cieck Erbaluce di Caluso,2024,white,Erbaluce,Cieck,Italy,,,750ml,2,,,,,2025–2030,
 Inventory,Clos Cibonne Tibouren Côtes de Provence Cru Classé,2023,rose,"Tibouren, Grenache",Clos Cibonne,France,Provence,,750ml,1,,,,,2025–2033,
 Inventory,Clos de la Roilette Cuvée Tardive Fleurie,2023,red,Gamay,Clos de la Roilette,France,Beaujolais,,750ml,2,31.81,63.62,0.0,0.0,2025–2032,
 Inventory,Clos de la Roilette La Griffe du Marquis Fleurie,2021,red,Gamay,Clos de la Roilette,France,Beaujolais,,750ml,3,40.12,120.36,0.0,0.0,2023–2029,
@@ -20,10 +21,15 @@ Inventory,Damilano 1752 Cannubi Barolo Riserva,2016,red,Nebbiolo,Damilano,Italy,
 Inventory,Damilano Lecinquevigne Barolo,2021,red,Nebbiolo,Damilano,Italy,Piedmont,,750ml,1,,,,,2028–2046,
 Inventory,DAOU Reserve Paso Robles Willow Creek District Reserve Cabernet Sauvignon,2021,red,Cabernet Sauvignon,Daou,United States,California,,750ml,1,,,,,2025–2035,Gift
 Inventory,DC Flynt MW Kirkland Signature Series Stags Leap District Napa Valley Cabernet Sauvignon,2023,red,Cabernet Sauvignon,DC Flynt MW,United States,California,,750ml,1,,,,,2025–2038,
+Inventory,DeLille Cellars Chaleur Blanc,2023,white,"Sauvignon Blanc, Sémillon",DeLille Cellars,United States,Washington,,750ml,2,33.44,66.88,,,2024–2028,
 Inventory,Domaine A. et P. de Villaine Bouzeron,2022,white,Aligoté,Domaine A. et P. de Villaine,France,Burgundy,,750ml,1,49.16,49.16,,,2024–2029,
 Inventory,Domaine Coudert Moulin-à-Vent,2022,red,Gamay,Domaine Coudert,France,Beaujolais,,750ml,1,28.45,28.45,0.0,0.0,2024–2030,
+Inventory,Domaine Exeterra Et Si? Alsace Sylvaner,2023,white,Sylvaner,Domaine Exeterra,France,Alsace,,750ml,1,,,,,2024–2030,
+Inventory,Domaine Exeterra Exogene Pinot Noir,2023,red,Pinot Noir,Domaine Exeterra,France,Alsace,,750ml,1,,,,,2025–2035,
 Inventory,Domaine Gardiés On S'en Fish Côtes Catalanes,2025,red,"Cinsault, Carignan",Domaine Gardies,France,Cotes Catalanes,,750ml,1,,,,,2027–2038,
 Inventory,Domaine Tollot-Beaut Chorey-Lès-Beaune,2012,red,Pinot Noir,Domaine Tollot-Beaut,France,Burgundy,,750ml,1,60.63,60.63,,,2014–2020,
+Inventory,Dominique Piron Chiroubles,2025,red,Gamay,Dominique Piron,France,Beaujolais,,750ml,1,,,,,2026–2031,
+Inventory,Dominique Piron Fleurie,2023,red,Gamay Noir,Dominique Piron,France,Beaujolais,,750ml,1,,,,,2024–2029,
 Inventory,Emeritus Hallberg Ranch Pinot Noir,2021,red,Pinot Noir,Emeritus Vineyards,United States,California,,750ml,2,53.43,106.86,,,2024–2031,
 Inventory,Emilio Moro Malleolus,2022,red,Tempranillo,Emilio Moro,Spain,Castilla y Leon,,750ml,1,48.16,48.16,,,2027–2037,Gift
 Inventory,Fanti Vallocchio Brunello di Montalcino,2021,red,Sangiovese,Fanti,Italy,Tuscany,,750ml,1,,,,,2028–2046,
@@ -66,6 +72,7 @@ Inventory,Ridge Monte Bello,2023,red,"Merlot, Petit Verdot, Cabernet Sauvignon, 
 Inventory,Ridge Stone Ranch Zinfandel,2023,red,"Zinfandel, Petite Sirah",Ridge Vineyards,United States,California,,750ml,2,,,,,2025–2035,
 Inventory,Ridge Vineyards Planchon Zinfandel,2023,red,"Barbera, Merlot, Zinfandel",Ridge Vineyards,United States,California,,750ml,1,,,,,2025–2035,
 Inventory,Saperavi MarmeNiko,2023,red,Saperavi,MARMENKO,United States,Georgia,,750ml,1,,,,,2027–2038,
+Inventory,Sassetti Livio Pertimali Brunello Di Montalcino,2019,red,Sangiovese,Sassetti Livio Pertimali,Italy,Tuscany,,750ml,1,,,,,2026–2048,
 Inventory,Schiavenza Barolo del Comune di Serralunga d'Alba,2021,red,Nebbiolo,Schiavenza,Italy,Piedmont,,750ml,2,42.58,85.16,,,2030–2045,
 Inventory,Schramsberg Blanc de Blancs Brut,2022,sparkling,Chardonnay,Schramsberg,United States,California,,750ml,1,41.14,41.14,,,2023–2027,
 Inventory,Silvano Bolmida Le Coste di Monforte Barolo ,2020,red,Nebbiolo,Silvano Bolmida,Italy,Piedmont,,750ml,1,,,,,2028–2045,
@@ -74,5 +81,6 @@ Inventory,Spring Mountain Vineyard Elivette Napa Valley,2000,red,"Malbec, Merlot
 Inventory,Stag's Leap Wine Cellars Distinguished Vineyards Rancho Chimiles Cabernet Sauvignon,2019,red,"Malbec, Merlot, Petite Sirah, Petit Verdot, Cabernet Sauvignon, Cabernet Franc, Syrah/Shiraz",Stags' Leap Winery,United States,California,,750ml,1,,,0.5,0.5,2023–2029,
 Inventory,Stags' Leap Winery Napa Valley Petite Sirah,2020,red,Petite Sirah,Stags' Leap Winery,United States,California,,750ml,4,39.01,156.04,,,2022–2032,
 Inventory,The Prisoner Saldo Zinfandel,2022,red,"Zinfandel, Petite Sirah, Syrah/Shiraz",The Prisoner Wine Company,United States,California,,750ml,1,29.1,29.1,0.0,0.0,2024–2030,Gift
+Inventory,Turley Pesenti Vineyard Zinfandel,2022,red,"Zinfandel, Grenache, Carignane",Turley Wine Cellars,United States,California,,750ml,1,51.49,51.49,,,2024–2029,
 Inventory,Veuve Clicquot Champagne Brut,,sparkling,"Chardonnay, Pinot Noir, Pinot Meunier",Veuve Clicquot,France,Champagne,,750ml,2,66.21,132.42,,,2026–2029,Gift
 Inventory,Wiston Estate Blanc de Blancs Sparkling,2018,sparkling,Chardonnay,Wiston Estate Winery,United Kingdom,England,,750ml,1,73.0,73.0,,,2023–2030,
