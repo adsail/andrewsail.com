@@ -18,8 +18,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
@@ -40,8 +40,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": null,
@@ -62,8 +62,8 @@
     "market_usd": 47.01,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -84,8 +84,8 @@
     "market_usd": 17.05,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -106,8 +106,8 @@
     "market_usd": 77.59,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": null,
@@ -128,8 +128,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -150,13 +150,13 @@
     "market_usd": 55.03,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
     "producer": "Caymus Vineyards",
-    "wine_name": "Caymus Vineyards Napa Valley Cabernet Sauvignon",
+    "wine_name": "Caymus Vineyards 50th Anniversary Cabernet Sauvignon",
     "wine_type": "red",
     "grapes": "Cabernet Sauvignon",
     "country": "United States",
@@ -172,8 +172,8 @@
     "market_usd": 68.22,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
@@ -194,8 +194,8 @@
     "market_usd": 45.4,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2016,
@@ -216,8 +216,8 @@
     "market_usd": 22.39,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -238,8 +238,8 @@
     "market_usd": 47.25,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2018,
@@ -260,8 +260,8 @@
     "market_usd": 28.71,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2010,
@@ -282,8 +282,8 @@
     "market_usd": 455.62,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2016,
@@ -304,8 +304,8 @@
     "market_usd": 142.79,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2024,
@@ -326,8 +326,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -348,8 +348,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -370,8 +370,8 @@
     "market_usd": 31.81,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -392,8 +392,8 @@
     "market_usd": 40.12,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2016,
@@ -414,8 +414,8 @@
     "market_usd": 320.04,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -436,8 +436,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -458,8 +458,8 @@
     "market_usd": null,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -480,8 +480,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -502,8 +502,8 @@
     "market_usd": 33.44,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -524,8 +524,8 @@
     "market_usd": 49.16,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -546,8 +546,8 @@
     "market_usd": 28.45,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -568,8 +568,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -590,30 +590,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
-  },
-  {
-    "vintage": 2025,
-    "producer": "Domaine Gardies",
-    "wine_name": "Domaine Gardi\u00e9s On S'en Fish C\u00f4tes Catalanes",
-    "wine_type": "red",
-    "grapes": "Cinsault, Carignan",
-    "country": "France",
-    "region": "Cotes Catalanes",
-    "subregion": "",
-    "size": "750ml",
-    "qty": 1,
-    "drink_start": 2027,
-    "drink_end": 2038,
-    "ready_now": "",
-    "special": "",
-    "story": "",
-    "market_usd": null,
-    "tags": "",
-    "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2012,
@@ -634,8 +612,8 @@
     "market_usd": 60.63,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2025,
@@ -656,8 +634,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -678,8 +656,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -700,8 +678,8 @@
     "market_usd": 53.43,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -722,8 +700,8 @@
     "market_usd": 48.16,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -744,8 +722,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -766,8 +744,8 @@
     "market_usd": 27.04,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2025,
@@ -788,8 +766,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2024,
@@ -810,8 +788,8 @@
     "market_usd": 15.47,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -832,8 +810,8 @@
     "market_usd": 86.32,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -854,8 +832,8 @@
     "market_usd": 124.89,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
@@ -876,8 +854,8 @@
     "market_usd": 78.14,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -898,8 +876,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2024,
@@ -920,8 +898,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -942,8 +920,8 @@
     "market_usd": 40.59,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -964,8 +942,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -986,8 +964,8 @@
     "market_usd": 13.99,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1008,8 +986,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -1030,8 +1008,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1052,8 +1030,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1074,8 +1052,8 @@
     "market_usd": 25.83,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -1096,8 +1074,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
@@ -1118,13 +1096,13 @@
     "market_usd": 75.23,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
     "producer": "Early Mountain Vineyards",
-    "wine_name": "Lightwell Survey The Weird Ones are Wolves Red",
+    "wine_name": "Lightwell Survey The Weird Ones Are Wolves Shenandoah Valley Red",
     "wine_type": "red",
     "grapes": "Riesling, Petit Manseng, Cabernet Franc, Syrah/Shiraz",
     "country": "United States",
@@ -1140,8 +1118,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1162,8 +1140,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1184,8 +1162,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1206,8 +1184,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1228,8 +1206,8 @@
     "market_usd": 41.43,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -1250,8 +1228,8 @@
     "market_usd": 61.69,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1272,8 +1250,8 @@
     "market_usd": 18.32,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1294,8 +1272,8 @@
     "market_usd": 62.65,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2025,
@@ -1316,8 +1294,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -1338,8 +1316,8 @@
     "market_usd": 65.01,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2024,
@@ -1360,8 +1338,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1382,8 +1360,8 @@
     "market_usd": 106.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1404,8 +1382,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1426,8 +1404,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1448,13 +1426,13 @@
     "market_usd": 129.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2024,
     "producer": "Ridge Vineyards",
-    "wine_name": "Ridge Geyserville Alexander Valley Red Blend",
+    "wine_name": "Ridge Geyserville",
     "wine_type": "red",
     "grapes": "Carignan, Zinfandel, Petite Sirah",
     "country": "United States",
@@ -1470,8 +1448,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1492,8 +1470,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1514,8 +1492,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1536,8 +1514,52 @@
     "market_usd": 266.82,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
+  },
+  {
+    "vintage": 2023,
+    "producer": "Ridge Vineyards",
+    "wine_name": "Ridge San Lorenzo",
+    "wine_type": "red",
+    "grapes": "Zinfandel, Petite Sirah, Alicante Bouschet, Red Blend",
+    "country": "United States",
+    "region": "California",
+    "subregion": "",
+    "size": "750ml",
+    "qty": 3,
+    "drink_start": 2025,
+    "drink_end": 2033,
+    "ready_now": "",
+    "special": "",
+    "story": "",
+    "market_usd": 43.0,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
+  },
+  {
+    "vintage": 2024,
+    "producer": "Ridge Vineyards",
+    "wine_name": "Ridge Sandy Lane Carignane",
+    "wine_type": "red",
+    "grapes": "Carignane",
+    "country": "United States",
+    "region": "California",
+    "subregion": "",
+    "size": "750ml",
+    "qty": 3,
+    "drink_start": 2026,
+    "drink_end": 2036,
+    "ready_now": "",
+    "special": "",
+    "story": "",
+    "market_usd": 38.17,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1558,8 +1580,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1580,8 +1602,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2023,
@@ -1602,13 +1624,13 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
     "producer": "Sassetti Livio Pertimali",
-    "wine_name": "Sassetti Livio Pertimali Brunello Di Montalcino",
+    "wine_name": "Sassetti Livio Brunello di Montalcino",
     "wine_type": "red",
     "grapes": "Sangiovese",
     "country": "Italy",
@@ -1624,8 +1646,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2021,
@@ -1646,8 +1668,8 @@
     "market_usd": 42.58,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1668,8 +1690,8 @@
     "market_usd": 41.14,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -1690,8 +1712,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2018,
@@ -1712,13 +1734,13 @@
     "market_usd": 137.8,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2000,
     "producer": "Spring Mountain Vineyard",
-    "wine_name": "Spring Mountain Vineyard Elivette Napa Valley",
+    "wine_name": "Spring Mountain Vineyard Elivette",
     "wine_type": "red",
     "grapes": "Malbec, Merlot, Petit Verdot, Cabernet Sauvignon, Cabernet Franc",
     "country": "United States",
@@ -1734,8 +1756,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2019,
@@ -1756,8 +1778,8 @@
     "market_usd": null,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2020,
@@ -1778,8 +1800,8 @@
     "market_usd": 39.01,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1800,8 +1822,8 @@
     "market_usd": 29.1,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2022,
@@ -1822,8 +1844,8 @@
     "market_usd": 51.49,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": null,
@@ -1844,8 +1866,8 @@
     "market_usd": 66.21,
     "tags": "Gift",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   },
   {
     "vintage": 2018,
@@ -1866,7 +1888,7 @@
     "market_usd": 73.0,
     "tags": "",
     "status": "in_cellar",
-    "as_of": "2026-09-28",
-    "source": "invintory_csv_2026-09-28"
+    "as_of": "2026-10-26",
+    "source": "invintory_csv_2026-10-26"
   }
 ]
