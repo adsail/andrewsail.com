@@ -15,4 +15,4 @@ cloudFrontDistributionID = "E636FZZQVOSRQ"
 [[module.mounts]]
 source = "data"
 target = "data"
-files = ["*.json"]
+includeFiles = ["/**.json"]
