@@ -8,7 +8,6 @@ Inventory,Bugno Martino Ciamballà Lambrusco Mantova,,sparkling,Lambrusco,Bugno 
 Inventory,Castello La Leccia Bruciagna Gran Selezione Chianti Classico,2020,red,Sangiovese,Castello La Leccia,Italy,Tuscany,,750ml,1,55.03,55.03,,,2025–2035,
 Inventory,Caymus Vineyards 50th Anniversary Cabernet Sauvignon,2022,red,Cabernet Sauvignon,Caymus Vineyards,United States,California,,750ml,1,68.22,68.22,,,2024–2037,Gift
 Inventory,Chateau Faugères Saint-Émilion Grand Cru Classé,2019,red,"Merlot, Cabernet Sauvignon, Cabernet Franc",Château Faugères,France,Bordeaux,,750ml,1,45.4,45.4,43.0,43.0,2024–2034,
-Inventory,Château de Panigon Médoc,2016,red,"Merlot, Petit Verdot, Cabernet Sauvignon",Château de Panigon,France,Bordeaux,,750ml,1,22.39,22.39,,,2022–2034,
 Inventory,Château Durfort-Vivens Le Hameau Margaux,2020,red,"Merlot, Cabernet Sauvignon, Cabernet Franc, Red Blend",Château Durfort-Vivens,France,Bordeaux,,750ml,2,47.25,94.5,40.0,80.0,2027–2035,
 Inventory,Château Laville Sauternes,2018,dessert,Sauvignon Blanc,Château Laville,France,Bordeaux,,375ml,1,28.71,28.71,,,2023–2038,
 Inventory,Château Pavie Saint-Émilion Grand Cru,2010,red,"Merlot, Cabernet Sauvignon, Cabernet Franc, Bordeaux Red Blends",Chateau Pavie,France,Bordeaux,,750ml,1,455.62,455.62,,,2028–2085,Gift
@@ -52,10 +51,8 @@ Inventory,Le Strette Corini - Pallaretta Barolo,2019,red,Nebbiolo,Le Strette,Ita
 Inventory,Lightwell Survey The Weird Ones Are Wolves Shenandoah Valley Red,2019,red,"Riesling, Petit Manseng, Cabernet Franc, Syrah/Shiraz",Early Mountain Vineyards,United States,,,750ml,1,,,,,2022–2029,
 Inventory,Lukas van Loggerenberg High Hopes Swartland Red Blend,2023,red,"Cinsault, Grenache Noir, Syrah/Shiraz",Lukas Van Loggerenberg Wines,South Africa,Coastal Region,,750ml,1,,,,,2025–2030,
 Inventory,Matt Morris Heritage Blend,2022,red,"Malbec, Charbono, Petite Sirah",Matt Morris Charbono,United States,California,,750ml,2,,,,,2025–2032,
-Inventory,Maxime Maignez Tempérance Condrieu,2023,white,Viognier,Domaine Maxime Maignez,France,Rhone,,750ml,1,,,0.0,0.0,2025–2031,
 Inventory,Mosse Le Rouchefer Anjou Blanc,2022,white,Chenin Blanc,Domaine Mosse,France,Loire,,750ml,1,41.43,41.43,,,2024–2030,
 Inventory,Mount Eden Vineyards Domaine Eden Cabernet Sauvignon,2020,red,Cabernet Sauvignon,Mount Eden Vineyards,United States,California,,750ml,1,61.69,61.69,,,2025–2034,
-Inventory,Notre Dame des Pallières Sablet L'Olivet,2023,red,"Grenache Noir, Syrah/Shiraz",Notre Dame des Pallières,France,,,750ml,1,18.32,18.32,,,2025–2028,
 Inventory,Peake Ranch John Sebastiano Vineyard Pinot Noir,2022,red,Pinot Noir,Peake Ranch,United States,California,,750ml,1,62.65,62.65,,,2024–2030,
 Inventory,Prieuré Saint-Côme Chablis Premier Cru,2025,white,Chardonnay,Prieuré Saint-Côme,France,Burgundy,,750ml,1,,,,,2027–2037,
 Inventory,Quinta de La Rosa Vale do Inferno,2021,red,Souzao,Quinta de La Rosa,Portugal,Douro,,750ml,1,65.01,65.01,,,2023–2031,Gift
@@ -82,6 +79,9 @@ Inventory,Spring Mountain Vineyard Elivette,2000,red,"Malbec, Merlot, Petit Verd
 Inventory,Stag's Leap Wine Cellars Distinguished Vineyards Rancho Chimiles Cabernet Sauvignon,2019,red,"Malbec, Merlot, Petite Sirah, Petit Verdot, Cabernet Sauvignon, Cabernet Franc, Syrah/Shiraz",Stags' Leap Winery,United States,California,,750ml,1,,,0.5,0.5,2023–2029,
 Inventory,Stags' Leap Winery Napa Valley Petite Sirah,2020,red,Petite Sirah,Stags' Leap Winery,United States,California,,750ml,4,39.01,156.04,,,2022–2032,
 Inventory,The Prisoner Saldo Zinfandel,2022,red,"Zinfandel, Petite Sirah, Syrah/Shiraz",The Prisoner Wine Company,United States,California,,750ml,1,29.1,29.1,0.0,0.0,2024–2030,Gift
-Inventory,Turley Pesenti Vineyard Zinfandel,2022,red,"Zinfandel, Grenache, Carignane",Turley Wine Cellars,United States,California,,750ml,1,51.49,51.49,,,2024–2029,
 Inventory,Veuve Clicquot Champagne Brut,,sparkling,"Chardonnay, Pinot Noir, Pinot Meunier",Veuve Clicquot,France,Champagne,,750ml,2,66.21,132.42,,,2026–2029,Gift
 Inventory,Wiston Estate Blanc de Blancs Sparkling,2018,sparkling,Chardonnay,Wiston Estate Winery,United Kingdom,England,,750ml,1,73.0,73.0,,,2023–2030,
+Inventory,Château du Tailhas Pomerol,2016,red,Petit Verdot,Château du Tailhas,France,Bordeaux,,750ml,1,,,,,2022–2030,
+Inventory,Château Tour Saint Christophe Saint-Émilion Grand Cru,2022,red,"Merlot, Cabernet Franc",Château Tour Saint-Christophe,France,Bordeaux,,750ml,1,,,,,2027–2039,
+Inventory,La Chaume des Lies Bouzeron Aligoté,2023,white,Aligoté,La Chaume des Lies,France,Burgundy,,750ml,1,,,,,2024–2028,
+Inventory,Les Bertrand Cuvée du Chaos Fleurie,2024,red,Gamay,Les Bertrand,France,Beaujolais,,750ml,1,,,,,2025–2031,
