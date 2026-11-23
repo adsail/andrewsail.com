@@ -713,7 +713,7 @@
     "region": "Piedmont",
     "subregion": "",
     "size": "750ml",
-    "qty": 3,
+    "qty": 2,
     "drink_start": 2027,
     "drink_end": 2034,
     "ready_now": "",
@@ -1758,5 +1758,27 @@
     "status": "in_cellar",
     "as_of": "2026-11-05",
     "source": "invintory_partial_2026-11-05"
+  },
+  {
+    "vintage": 2024,
+    "producer": "Notre Dame des Pallières",
+    "wine_name": "Domaine Notre Dame des Pallières Les Mourres Gigondas",
+    "wine_type": "red",
+    "grapes": "Grenache Noir, Syrah/Shiraz, Mourvèdre",
+    "country": "France",
+    "region": "Rhone",
+    "subregion": "",
+    "size": "750ml",
+    "qty": 1,
+    "drink_start": 2027,
+    "drink_end": 2038,
+    "ready_now": "",
+    "special": "",
+    "story": "",
+    "market_usd": null,
+    "tags": "",
+    "status": "in_cellar",
+    "as_of": "2026-11-23",
+    "source": "invintory_partial_2026-11-23"
   }
 ]
